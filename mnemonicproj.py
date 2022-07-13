@@ -9,6 +9,15 @@ If you publish work using this script the most relevant publication is:
         PsychoPy2: Experiments in behavior made easy Behav Res 51: 195. 
         https://doi.org/10.3758/s13428-018-01193-y
 
+ATM 7/13/2022
+
+TO DO:
+    1) Finish the retrieval dictionary of lists, using list comprehension similar to the ENC_RUN_TRIALS syntax
+    2) Add a indoor/outdoor response during the encoding trials to ensure people are attending (NOT SELF TIMED)
+    2a) write a separate datFile that has the image name, response given, and the latency of the response 
+    3) Make the confidence judgment self-paced rather than timed - follow the example of the retrieval image response syntax
+
+
 """
 from psychopy import locale_setup
 from psychopy import prefs
@@ -51,6 +60,8 @@ encodingtrials_lists = pd.read_excel(f"data/sub-{expInfo['participant']}/encodin
  # ...
  #                                    4: [{"stim":'SetC/100a.jpg'}, {"stim":'SetC/101a.jpg'},{"stim":'SetC/102a.jpg'}, ..., {"stim":'SetC/145a.jpg'}]}
 ENC_RUN_TRIALS = {
+    ENCRUN: [{"stim": curr_enc_img} for curr_enc_img in encodingtrials_lists[f"encoding{ENCRUN}"]]
+    for ENCRUN in range(1,5)
 }
 
 RET_RUNS = {RETRUN: pd.read_excel(f"data/sub-{expInfo['participant']}/retrieval{RETRUN}.xlsx") for RETRUN in range(1,5)}
@@ -142,7 +153,9 @@ welcome_text = visual.TextStim(
 welcome_resp = keyboard.Keyboard()
 
 # Initialize components for Routine "ready_block"
-encoding_instruct_message = """Now, you will see the pictures, each for 2 seconds.
+encoding_instruct_message = """You are in block {0}
+
+Now, you will see the pictures, each for 2 seconds.
 
 Please try to remember as much as possible.
 
@@ -152,7 +165,7 @@ encoding_intructClock = core.Clock()
 encoding_instruct_text = visual.TextStim(
     win=win,
     name='encoding_instruct_text',
-    text=encoding_instruct_message,
+    text=None,
     font='Open Sans',
     pos=(0, 0),
     height=0.03,
@@ -488,6 +501,8 @@ routineTimer.reset()
 
 # ATM 7/7/2022 added....iterating over 4 runs hard coded.
 for _run in range(1, 5):
+    
+    encoding_instruct_message = encoding_instruct_message.format(_run)
 
     datFile_base = SCRIPT_DIR + "/mstfoil_data/sub-{0}/ses-S1/{1}/sub-{0}_task-mstfoil_events".format(expInfo["participant"], expInfo["date"])
     # If restart occurs within the same minute, prevents writing to same file
@@ -503,6 +518,7 @@ for _run in range(1, 5):
     encoding_instruct_resp.keys = []
     encoding_instruct_resp.rt = []
     _encoding_instruct_resp_allKeys = []
+    encoding_instruct_text.text = encoding_instruct_message
     # keep track of which components have finished
     encoding_instructComponents = [encoding_instruct_text, encoding_instruct_resp]
     for thisComponent in encoding_instructComponents:
