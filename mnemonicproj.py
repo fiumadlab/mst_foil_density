@@ -71,6 +71,10 @@ RET_RUNS = {RETRUN: pd.read_excel(f"data/sub-{expInfo['participant']}/retrieval{
  # ...
  #                                    4: [{'stim': 'SetC/181a.jpg', 'type': 'targ'}, {'stim': 'SetC/182a.jpg', 'type': 'targ'}, ..., {'stim': 'SetD/084a.jpg', 'type': 'foil'}]}
 RET_RUN_TRIALS = {
+    RUN: [{"stim": RET_RUNS[RUN][f"retrieval{RUN}"][i],
+                 "type": RET_RUNS[RUN][f"type"][i]}
+                 for i in range(len(RET_RUNS[RUN]))]
+    for RUN in range(1,5)
 }
 
 # Data file name stem = absolute path + name; later add .psyexp, .csv, .log, etc

@@ -1,0 +1,1738 @@
+11.4454 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [2560, 1440]. Using actual size
+12.1428 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x12dcf0a58>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x12da77710>, multiSample=False, name='window1', numSamples=2, pos=[640.0, 360.0], screen=0, size=array([5120, 2880]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.1430 	EXP 	window1: mouseVisible = True
+12.1430 	EXP 	window1: recordFrameIntervals = False
+12.3076 	EXP 	window1: recordFrameIntervals = True
+12.4910 	EXP 	window1: recordFrameIntervals = False
+12.5743 	EXP 	Created welcome_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='welcome_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.5935 	EXP 	Created encoding_instruct_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='encoding_instruct_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.6064 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.6102 	EXP 	Created encoding_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='encoding_img', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+12.6226 	EXP 	Created sudoku_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='sudoku_instructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.6341 	EXP 	Created sudoku_timer_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='sudoku_timer_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.6684 	EXP 	Created recognition_instruct = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='recognition_instruct', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.6803 	EXP 	Created recognition_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='recognition_img', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+12.6990 	EXP 	Created recognition_resp_prompt_main = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='recognition_resp_prompt_main', opacity=1, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='Please select from the responses below.', units='height', win=Window(...), wrapWidth=1)
+12.7036 	EXP 	Created recognition_resp_prompt_options = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='recognition_resp_prompt_options', opacity=1, ori=0.0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text='H = old,   J = similar,   K = new', units='height', win=Window(...), wrapWidth=1)
+12.7074 	EXP 	Created confidence_resp_prompt_main = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='confidence_resp_prompt_main', opacity=1, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='Please rate your confidence in your answer.', units='height', win=Window(...), wrapWidth=1)
+12.7485 	EXP 	Created confidence_ratebar = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='ratebar.png', interpolate=False, mask=None, maskParams=None, name='confidence_ratebar', opacity=1, ori=0.0, pos=array([ 0.  , -0.05]), size=array([1.2, 0.7]), texRes=128.0, units='height', win=Window(...))
+12.7648 	EXP 	Created byebye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='byebye', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.7928 	EXP 	welcome_text: autoDraw = True
+30.5988 	DATA 	Keypress: d
+30.7659 	DATA 	Keypress: g
+30.7670 	DATA 	Keypress: h
+30.9321 	DATA 	Keypress: w
+31.0488 	DATA 	Keypress: i
+31.2152 	DATA 	Keypress: a
+31.3486 	DATA 	Keypress: bracketright
+31.5320 	DATA 	Keypress: lshift
+31.6478 	DATA 	Keypress: rshift
+31.7000 	DATA 	Keypress: right
+31.8316 	DATA 	Keypress: loption
+31.8556 	DATA 	Keypress: z
+32.0815 	DATA 	Keypress: return
+32.2151 	DATA 	Keypress: 1
+32.3823 	DATA 	Keypress: minus
+32.7680 	DATA 	Keypress: x
+32.9004 	DATA 	Keypress: f
+33.8015 	DATA 	Keypress: m
+33.8136 	EXP 	welcome_text: autoDraw = False
+33.8136 	EXP 	encoding_instruct_text: autoDraw = True
+44.5682 	DATA 	Keypress: lcommand
+44.6012 	DATA 	Keypress: loption
+44.7521 	DATA 	Keypress: space
+44.8691 	DATA 	Keypress: lctrl
+45.2190 	DATA 	Keypress: capslock
+45.2509 	DATA 	Keypress: rshift
+45.5039 	DATA 	Keypress: return
+47.4075 	EXP 	Created sequence: sequential, trialTypes=48, nReps=1, seed=None
+47.4078 	EXP 	New trial (rep=0, index=0): {'stim': 'SetC/187a.jpg'}
+47.4102 	DATA 	Keypress: r
+47.4163 	EXP 	encoding_instruct_text: autoDraw = False
+47.4163 	EXP 	fixation: autoDraw = True
+47.9258 	EXP 	fixation: autoDraw = False
+47.9258 	EXP 	fixation: autoDraw = False
+47.9258 	EXP 	encoding_img: size = array([0.17152778, 0.27777778])
+47.9258 	EXP 	encoding_img: image = 'SetC/187a.jpg'
+47.9258 	EXP 	encoding_img: autoDraw = True
+49.9020 	EXP 	New trial (rep=0, index=1): {'stim': 'SetC/142a.jpg'}
+49.9182 	EXP 	encoding_img: autoDraw = False
+49.9182 	EXP 	fixation: autoDraw = True
+50.4342 	EXP 	fixation: autoDraw = False
+50.4342 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+50.4342 	EXP 	encoding_img: image = 'SetC/142a.jpg'
+50.4342 	EXP 	encoding_img: autoDraw = True
+52.4020 	EXP 	New trial (rep=0, index=2): {'stim': 'SetD/153a.jpg'}
+52.4177 	EXP 	encoding_img: autoDraw = False
+52.4177 	EXP 	fixation: autoDraw = True
+52.9180 	EXP 	fixation: autoDraw = False
+52.9180 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+52.9180 	EXP 	encoding_img: image = 'SetD/153a.jpg'
+52.9180 	EXP 	encoding_img: autoDraw = True
+54.9028 	EXP 	New trial (rep=0, index=3): {'stim': 'SetD/137a.jpg'}
+54.9195 	EXP 	encoding_img: autoDraw = False
+54.9195 	EXP 	fixation: autoDraw = True
+55.4251 	EXP 	fixation: autoDraw = False
+55.4251 	EXP 	encoding_img: size = array([0.27777778, 0.25486111])
+55.4251 	EXP 	encoding_img: image = 'SetD/137a.jpg'
+55.4251 	EXP 	encoding_img: autoDraw = True
+57.4032 	EXP 	New trial (rep=0, index=4): {'stim': 'SetC/190a.jpg'}
+57.4190 	EXP 	encoding_img: autoDraw = False
+57.4190 	EXP 	fixation: autoDraw = True
+57.9254 	EXP 	fixation: autoDraw = False
+57.9254 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+57.9254 	EXP 	encoding_img: image = 'SetC/190a.jpg'
+57.9254 	EXP 	encoding_img: autoDraw = True
+59.9049 	EXP 	New trial (rep=0, index=5): {'stim': 'SetC/039a.jpg'}
+59.9210 	EXP 	encoding_img: autoDraw = False
+59.9210 	EXP 	fixation: autoDraw = True
+60.4197 	EXP 	fixation: autoDraw = False
+60.4197 	EXP 	encoding_img: size = array([0.26597222, 0.27777778])
+60.4197 	EXP 	encoding_img: image = 'SetC/039a.jpg'
+60.4197 	EXP 	encoding_img: autoDraw = True
+62.4043 	EXP 	New trial (rep=0, index=6): {'stim': 'SetC/141a.jpg'}
+62.4209 	EXP 	encoding_img: autoDraw = False
+62.4209 	EXP 	fixation: autoDraw = True
+62.9249 	EXP 	fixation: autoDraw = False
+62.9249 	EXP 	encoding_img: size = array([0.25902778, 0.27777778])
+62.9249 	EXP 	encoding_img: image = 'SetC/141a.jpg'
+62.9249 	EXP 	encoding_img: autoDraw = True
+64.9060 	EXP 	New trial (rep=0, index=7): {'stim': 'SetD/031a.jpg'}
+64.9218 	EXP 	encoding_img: autoDraw = False
+64.9218 	EXP 	fixation: autoDraw = True
+65.4250 	EXP 	fixation: autoDraw = False
+65.4250 	EXP 	encoding_img: size = array([0.24305556, 0.27708333])
+65.4250 	EXP 	encoding_img: image = 'SetD/031a.jpg'
+65.4250 	EXP 	encoding_img: autoDraw = True
+67.4055 	EXP 	New trial (rep=0, index=8): {'stim': 'SetD/109a.jpg'}
+67.4221 	EXP 	encoding_img: autoDraw = False
+67.4221 	EXP 	fixation: autoDraw = True
+67.9228 	EXP 	fixation: autoDraw = False
+67.9228 	EXP 	encoding_img: size = array([0.27777778, 0.18472222])
+67.9228 	EXP 	encoding_img: image = 'SetD/109a.jpg'
+67.9228 	EXP 	encoding_img: autoDraw = True
+69.9075 	EXP 	New trial (rep=0, index=9): {'stim': 'SetC/002a.jpg'}
+69.9227 	EXP 	encoding_img: autoDraw = False
+69.9227 	EXP 	fixation: autoDraw = True
+70.4232 	EXP 	fixation: autoDraw = False
+70.4232 	EXP 	encoding_img: size = array([0.18333333, 0.27777778])
+70.4232 	EXP 	encoding_img: image = 'SetC/002a.jpg'
+70.4232 	EXP 	encoding_img: autoDraw = True
+72.4067 	EXP 	New trial (rep=0, index=10): {'stim': 'SetD/011a.jpg'}
+72.4231 	EXP 	encoding_img: autoDraw = False
+72.4231 	EXP 	fixation: autoDraw = True
+72.9233 	EXP 	fixation: autoDraw = False
+72.9233 	EXP 	encoding_img: size = array([0.27708333, 0.27083333])
+72.9233 	EXP 	encoding_img: image = 'SetD/011a.jpg'
+72.9233 	EXP 	encoding_img: autoDraw = True
+74.9076 	EXP 	New trial (rep=0, index=11): {'stim': 'SetD/063a.jpg'}
+74.9244 	EXP 	encoding_img: autoDraw = False
+74.9244 	EXP 	fixation: autoDraw = True
+75.4410 	EXP 	fixation: autoDraw = False
+75.4410 	EXP 	encoding_img: size = array([0.27708333, 0.21736111])
+75.4410 	EXP 	encoding_img: image = 'SetD/063a.jpg'
+75.4410 	EXP 	encoding_img: autoDraw = True
+77.4081 	EXP 	New trial (rep=0, index=12): {'stim': 'SetC/019a.jpg'}
+77.4237 	EXP 	encoding_img: autoDraw = False
+77.4237 	EXP 	fixation: autoDraw = True
+77.9243 	EXP 	fixation: autoDraw = False
+77.9243 	EXP 	encoding_img: size = array([0.27777778, 0.14513889])
+77.9243 	EXP 	encoding_img: image = 'SetC/019a.jpg'
+77.9243 	EXP 	encoding_img: autoDraw = True
+79.9093 	EXP 	New trial (rep=0, index=13): {'stim': 'SetD/018a.jpg'}
+79.9260 	EXP 	encoding_img: autoDraw = False
+79.9260 	EXP 	fixation: autoDraw = True
+80.4411 	EXP 	fixation: autoDraw = False
+80.4411 	EXP 	encoding_img: size = array([0.27708333, 0.27708333])
+80.4411 	EXP 	encoding_img: image = 'SetD/018a.jpg'
+80.4411 	EXP 	encoding_img: autoDraw = True
+82.4103 	EXP 	New trial (rep=0, index=14): {'stim': 'SetC/069a.jpg'}
+82.4252 	EXP 	encoding_img: autoDraw = False
+82.4252 	EXP 	fixation: autoDraw = True
+82.9265 	EXP 	fixation: autoDraw = False
+82.9265 	EXP 	encoding_img: size = array([0.27777778, 0.13888889])
+82.9265 	EXP 	encoding_img: image = 'SetC/069a.jpg'
+82.9265 	EXP 	encoding_img: autoDraw = True
+84.9113 	EXP 	New trial (rep=0, index=15): {'stim': 'SetD/161a.jpg'}
+84.9265 	EXP 	encoding_img: autoDraw = False
+84.9265 	EXP 	fixation: autoDraw = True
+85.4411 	EXP 	fixation: autoDraw = False
+85.4411 	EXP 	encoding_img: size = array([0.27777778, 0.25347222])
+85.4411 	EXP 	encoding_img: image = 'SetD/161a.jpg'
+85.4411 	EXP 	encoding_img: autoDraw = True
+87.4109 	EXP 	New trial (rep=0, index=16): {'stim': 'SetD/098a.jpg'}
+87.4266 	EXP 	encoding_img: autoDraw = False
+87.4266 	EXP 	fixation: autoDraw = True
+87.9405 	EXP 	fixation: autoDraw = False
+87.9405 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+87.9405 	EXP 	encoding_img: image = 'SetD/098a.jpg'
+87.9405 	EXP 	encoding_img: autoDraw = True
+89.9120 	EXP 	New trial (rep=0, index=17): {'stim': 'SetC/116a.jpg'}
+89.9287 	EXP 	encoding_img: autoDraw = False
+89.9287 	EXP 	fixation: autoDraw = True
+90.4285 	EXP 	fixation: autoDraw = False
+90.4285 	EXP 	encoding_img: size = array([0.27777778, 0.18472222])
+90.4285 	EXP 	encoding_img: image = 'SetC/116a.jpg'
+90.4285 	EXP 	encoding_img: autoDraw = True
+92.4112 	EXP 	New trial (rep=0, index=18): {'stim': 'SetD/028a.jpg'}
+92.4275 	EXP 	encoding_img: autoDraw = False
+92.4275 	EXP 	fixation: autoDraw = True
+92.9293 	EXP 	fixation: autoDraw = False
+92.9293 	EXP 	encoding_img: size = array([0.18194444, 0.27708333])
+92.9293 	EXP 	encoding_img: image = 'SetD/028a.jpg'
+92.9293 	EXP 	encoding_img: autoDraw = True
+94.9135 	EXP 	New trial (rep=0, index=19): {'stim': 'SetC/026a.jpg'}
+94.9296 	EXP 	encoding_img: autoDraw = False
+94.9296 	EXP 	fixation: autoDraw = True
+95.4296 	EXP 	fixation: autoDraw = False
+95.4296 	EXP 	encoding_img: size = array([0.18402778, 0.27777778])
+95.4296 	EXP 	encoding_img: image = 'SetC/026a.jpg'
+95.4296 	EXP 	encoding_img: autoDraw = True
+97.4131 	EXP 	New trial (rep=0, index=20): {'stim': 'SetD/001a.jpg'}
+97.4296 	EXP 	encoding_img: autoDraw = False
+97.4296 	EXP 	fixation: autoDraw = True
+97.9297 	EXP 	fixation: autoDraw = False
+97.9297 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+97.9297 	EXP 	encoding_img: image = 'SetD/001a.jpg'
+97.9297 	EXP 	encoding_img: autoDraw = True
+99.9151 	EXP 	New trial (rep=0, index=21): {'stim': 'SetC/123a.jpg'}
+99.9311 	EXP 	encoding_img: autoDraw = False
+99.9311 	EXP 	fixation: autoDraw = True
+100.4305 	EXP 	fixation: autoDraw = False
+100.4305 	EXP 	encoding_img: size = array([0.27777778, 0.21736111])
+100.4305 	EXP 	encoding_img: image = 'SetC/123a.jpg'
+100.4305 	EXP 	encoding_img: autoDraw = True
+102.4152 	EXP 	New trial (rep=0, index=22): {'stim': 'SetD/147a.jpg'}
+102.4306 	EXP 	encoding_img: autoDraw = False
+102.4306 	EXP 	fixation: autoDraw = True
+102.9315 	EXP 	fixation: autoDraw = False
+102.9315 	EXP 	encoding_img: size = array([0.27777778, 0.18472222])
+102.9315 	EXP 	encoding_img: image = 'SetD/147a.jpg'
+102.9315 	EXP 	encoding_img: autoDraw = True
+104.9163 	EXP 	New trial (rep=0, index=23): {'stim': 'SetC/099a.jpg'}
+104.9321 	EXP 	encoding_img: autoDraw = False
+104.9321 	EXP 	fixation: autoDraw = True
+105.4398 	EXP 	fixation: autoDraw = False
+105.4398 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+105.4398 	EXP 	encoding_img: image = 'SetC/099a.jpg'
+105.4398 	EXP 	encoding_img: autoDraw = True
+107.4162 	EXP 	New trial (rep=0, index=24): {'stim': 'SetD/174a.jpg'}
+107.4317 	EXP 	encoding_img: autoDraw = False
+107.4317 	EXP 	fixation: autoDraw = True
+107.9327 	EXP 	fixation: autoDraw = False
+107.9327 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+107.9327 	EXP 	encoding_img: image = 'SetD/174a.jpg'
+107.9327 	EXP 	encoding_img: autoDraw = True
+109.9178 	EXP 	New trial (rep=0, index=25): {'stim': 'SetC/145a.jpg'}
+109.9338 	EXP 	encoding_img: autoDraw = False
+109.9338 	EXP 	fixation: autoDraw = True
+110.4335 	EXP 	fixation: autoDraw = False
+110.4335 	EXP 	encoding_img: size = array([0.15416667, 0.27777778])
+110.4335 	EXP 	encoding_img: image = 'SetC/145a.jpg'
+110.4335 	EXP 	encoding_img: autoDraw = True
+112.4177 	EXP 	New trial (rep=0, index=26): {'stim': 'SetD/027a.jpg'}
+112.4336 	EXP 	encoding_img: autoDraw = False
+112.4336 	EXP 	fixation: autoDraw = True
+112.9343 	EXP 	fixation: autoDraw = False
+112.9343 	EXP 	encoding_img: size = array([0.27777778, 0.21388889])
+112.9343 	EXP 	encoding_img: image = 'SetD/027a.jpg'
+112.9343 	EXP 	encoding_img: autoDraw = True
+114.9187 	EXP 	New trial (rep=0, index=27): {'stim': 'SetC/052a.jpg'}
+114.9350 	EXP 	encoding_img: autoDraw = False
+114.9350 	EXP 	fixation: autoDraw = True
+115.4221 	EXP 	fixation: autoDraw = False
+115.4221 	EXP 	encoding_img: size = array([0.27708333, 0.20208333])
+115.4221 	EXP 	encoding_img: image = 'SetC/052a.jpg'
+115.4221 	EXP 	encoding_img: autoDraw = True
+117.4184 	EXP 	New trial (rep=0, index=28): {'stim': 'SetD/010a.jpg'}
+117.4343 	EXP 	encoding_img: autoDraw = False
+117.4343 	EXP 	fixation: autoDraw = True
+117.9187 	EXP 	fixation: autoDraw = False
+117.9187 	EXP 	encoding_img: size = array([0.27708333, 0.27708333])
+117.9187 	EXP 	encoding_img: image = 'SetD/010a.jpg'
+117.9187 	EXP 	encoding_img: autoDraw = True
+119.9030 	EXP 	New trial (rep=0, index=29): {'stim': 'SetD/003a.jpg'}
+119.9198 	EXP 	encoding_img: autoDraw = False
+119.9198 	EXP 	fixation: autoDraw = True
+120.4193 	EXP 	fixation: autoDraw = False
+120.4193 	EXP 	encoding_img: size = array([0.27152778, 0.27777778])
+120.4193 	EXP 	encoding_img: image = 'SetD/003a.jpg'
+120.4193 	EXP 	encoding_img: autoDraw = True
+122.4063 	EXP 	New trial (rep=0, index=30): {'stim': 'SetD/096a.jpg'}
+122.4222 	EXP 	encoding_img: autoDraw = False
+122.4222 	EXP 	fixation: autoDraw = True
+122.9228 	EXP 	fixation: autoDraw = False
+122.9228 	EXP 	encoding_img: size = array([0.18125   , 0.27708333])
+122.9228 	EXP 	encoding_img: image = 'SetD/096a.jpg'
+122.9228 	EXP 	encoding_img: autoDraw = True
+124.9043 	EXP 	New trial (rep=0, index=31): {'stim': 'SetC/089a.jpg'}
+124.9201 	EXP 	encoding_img: autoDraw = False
+124.9201 	EXP 	fixation: autoDraw = True
+125.4196 	EXP 	fixation: autoDraw = False
+125.4196 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+125.4196 	EXP 	encoding_img: image = 'SetC/089a.jpg'
+125.4196 	EXP 	encoding_img: autoDraw = True
+127.4043 	EXP 	New trial (rep=0, index=32): {'stim': 'SetD/106a.jpg'}
+127.4208 	EXP 	encoding_img: autoDraw = False
+127.4208 	EXP 	fixation: autoDraw = True
+127.9210 	EXP 	fixation: autoDraw = False
+127.9210 	EXP 	encoding_img: size = array([0.27777778, 0.20833333])
+127.9210 	EXP 	encoding_img: image = 'SetD/106a.jpg'
+127.9210 	EXP 	encoding_img: autoDraw = True
+129.9053 	EXP 	New trial (rep=0, index=33): {'stim': 'SetC/030a.jpg'}
+129.9223 	EXP 	encoding_img: autoDraw = False
+129.9223 	EXP 	fixation: autoDraw = True
+130.4220 	EXP 	fixation: autoDraw = False
+130.4220 	EXP 	encoding_img: size = array([0.27638889, 0.21388889])
+130.4220 	EXP 	encoding_img: image = 'SetC/030a.jpg'
+130.4220 	EXP 	encoding_img: autoDraw = True
+132.4050 	EXP 	New trial (rep=0, index=34): {'stim': 'SetD/101a.jpg'}
+132.4215 	EXP 	encoding_img: autoDraw = False
+132.4215 	EXP 	fixation: autoDraw = True
+132.9216 	EXP 	fixation: autoDraw = False
+132.9216 	EXP 	encoding_img: size = array([0.21736111, 0.27777778])
+132.9216 	EXP 	encoding_img: image = 'SetD/101a.jpg'
+132.9216 	EXP 	encoding_img: autoDraw = True
+134.9073 	EXP 	New trial (rep=0, index=35): {'stim': 'SetC/118a.jpg'}
+134.9225 	EXP 	encoding_img: autoDraw = False
+134.9225 	EXP 	fixation: autoDraw = True
+135.4228 	EXP 	fixation: autoDraw = False
+135.4228 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+135.4228 	EXP 	encoding_img: image = 'SetC/118a.jpg'
+135.4228 	EXP 	encoding_img: autoDraw = True
+137.4065 	EXP 	New trial (rep=0, index=36): {'stim': 'SetC/028a.jpg'}
+137.4238 	EXP 	encoding_img: autoDraw = False
+137.4238 	EXP 	fixation: autoDraw = True
+137.9238 	EXP 	fixation: autoDraw = False
+137.9238 	EXP 	encoding_img: size = array([0.18333333, 0.27777778])
+137.9238 	EXP 	encoding_img: image = 'SetC/028a.jpg'
+137.9238 	EXP 	encoding_img: autoDraw = True
+139.9083 	EXP 	New trial (rep=0, index=37): {'stim': 'SetC/117a.jpg'}
+139.9243 	EXP 	encoding_img: autoDraw = False
+139.9243 	EXP 	fixation: autoDraw = True
+140.4239 	EXP 	fixation: autoDraw = False
+140.4239 	EXP 	encoding_img: size = array([0.27777778, 0.23125   ])
+140.4239 	EXP 	encoding_img: image = 'SetC/117a.jpg'
+140.4239 	EXP 	encoding_img: autoDraw = True
+142.4085 	EXP 	New trial (rep=0, index=38): {'stim': 'SetC/168a.jpg'}
+142.4242 	EXP 	encoding_img: autoDraw = False
+142.4242 	EXP 	fixation: autoDraw = True
+142.9247 	EXP 	fixation: autoDraw = False
+142.9247 	EXP 	encoding_img: size = array([0.27777778, 0.21666667])
+142.9247 	EXP 	encoding_img: image = 'SetC/168a.jpg'
+142.9247 	EXP 	encoding_img: autoDraw = True
+144.9101 	EXP 	New trial (rep=0, index=39): {'stim': 'SetD/111a.jpg'}
+144.9258 	EXP 	encoding_img: autoDraw = False
+144.9258 	EXP 	fixation: autoDraw = True
+145.4251 	EXP 	fixation: autoDraw = False
+145.4251 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+145.4251 	EXP 	encoding_img: image = 'SetD/111a.jpg'
+145.4251 	EXP 	encoding_img: autoDraw = True
+147.4098 	EXP 	New trial (rep=0, index=40): {'stim': 'SetC/047a.jpg'}
+147.4253 	EXP 	encoding_img: autoDraw = False
+147.4253 	EXP 	fixation: autoDraw = True
+147.9261 	EXP 	fixation: autoDraw = False
+147.9261 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+147.9261 	EXP 	encoding_img: image = 'SetC/047a.jpg'
+147.9261 	EXP 	encoding_img: autoDraw = True
+149.9103 	EXP 	New trial (rep=0, index=41): {'stim': 'SetD/142a.jpg'}
+149.9268 	EXP 	encoding_img: autoDraw = False
+149.9268 	EXP 	fixation: autoDraw = True
+150.4262 	EXP 	fixation: autoDraw = False
+150.4262 	EXP 	encoding_img: size = array([0.27777778, 0.25902778])
+150.4262 	EXP 	encoding_img: image = 'SetD/142a.jpg'
+150.4262 	EXP 	encoding_img: autoDraw = True
+152.4115 	EXP 	New trial (rep=0, index=42): {'stim': 'SetD/126a.jpg'}
+152.4269 	EXP 	encoding_img: autoDraw = False
+152.4269 	EXP 	fixation: autoDraw = True
+152.9283 	EXP 	fixation: autoDraw = False
+152.9283 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+152.9283 	EXP 	encoding_img: image = 'SetD/126a.jpg'
+152.9283 	EXP 	encoding_img: autoDraw = True
+154.9125 	EXP 	New trial (rep=0, index=43): {'stim': 'SetD/122a.jpg'}
+154.9285 	EXP 	encoding_img: autoDraw = False
+154.9285 	EXP 	fixation: autoDraw = True
+155.4273 	EXP 	fixation: autoDraw = False
+155.4273 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+155.4273 	EXP 	encoding_img: image = 'SetD/122a.jpg'
+155.4273 	EXP 	encoding_img: autoDraw = True
+157.4119 	EXP 	New trial (rep=0, index=44): {'stim': 'SetD/105a.jpg'}
+157.4287 	EXP 	encoding_img: autoDraw = False
+157.4287 	EXP 	fixation: autoDraw = True
+157.9289 	EXP 	fixation: autoDraw = False
+157.9289 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+157.9289 	EXP 	encoding_img: image = 'SetD/105a.jpg'
+157.9289 	EXP 	encoding_img: autoDraw = True
+159.9140 	EXP 	New trial (rep=0, index=45): {'stim': 'SetD/170a.jpg'}
+159.9298 	EXP 	encoding_img: autoDraw = False
+159.9298 	EXP 	fixation: autoDraw = True
+160.4290 	EXP 	fixation: autoDraw = False
+160.4290 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+160.4290 	EXP 	encoding_img: image = 'SetD/170a.jpg'
+160.4290 	EXP 	encoding_img: autoDraw = True
+162.4131 	EXP 	New trial (rep=0, index=46): {'stim': 'SetD/056a.jpg'}
+162.4296 	EXP 	encoding_img: autoDraw = False
+162.4296 	EXP 	fixation: autoDraw = True
+162.9297 	EXP 	fixation: autoDraw = False
+162.9297 	EXP 	encoding_img: size = array([0.27708333, 0.27708333])
+162.9297 	EXP 	encoding_img: image = 'SetD/056a.jpg'
+162.9297 	EXP 	encoding_img: autoDraw = True
+164.9147 	EXP 	New trial (rep=0, index=47): {'stim': 'SetD/154a.jpg'}
+164.9306 	EXP 	encoding_img: autoDraw = False
+164.9306 	EXP 	fixation: autoDraw = True
+165.4309 	EXP 	fixation: autoDraw = False
+165.4309 	EXP 	encoding_img: size = array([0.27777778, 0.25902778])
+165.4309 	EXP 	encoding_img: image = 'SetD/154a.jpg'
+165.4309 	EXP 	encoding_img: autoDraw = True
+167.4306 	EXP 	encoding_img: autoDraw = False
+167.4306 	EXP 	sudoku_instructions: autoDraw = True
+198.5425 	DATA 	Keypress: left
+198.7725 	DATA 	Keypress: s
+198.8926 	DATA 	Keypress: slash
+199.0249 	DATA 	Keypress: s
+199.1916 	DATA 	Keypress: p
+199.3383 	DATA 	Keypress: x
+199.5041 	DATA 	Keypress: rshift
+200.5749 	DATA 	Keypress: r
+200.5843 	EXP 	sudoku_instructions: autoDraw = False
+200.5843 	EXP 	sudoku_timer_text: autoDraw = True
+205.6009 	EXP 	sudoku_timer_text: autoDraw = False
+205.6009 	EXP 	recognition_instruct: autoDraw = True
+226.0992 	DATA 	Keypress: a
+226.1143 	EXP 	Created sequence: sequential, trialTypes=60, nReps=1, seed=None
+226.1148 	EXP 	New trial (rep=0, index=0): {'stim': 'SetC/187a.jpg', 'type': 'targ'}
+226.1300 	EXP 	recognition_instruct: autoDraw = False
+226.1300 	EXP 	fixation: autoDraw = True
+226.6295 	EXP 	fixation: autoDraw = False
+226.6295 	EXP 	fixation: autoDraw = False
+226.6295 	EXP 	recognition_img: size = array([0.17152778, 0.27777778])
+226.6295 	EXP 	recognition_img: image = 'SetC/187a.jpg'
+226.6295 	EXP 	recognition_img: autoDraw = True
+226.6295 	EXP 	recognition_resp_prompt_main: autoDraw = True
+226.6295 	EXP 	recognition_resp_prompt_options: autoDraw = True
+245.3376 	DATA 	Keypress: k
+245.3514 	EXP 	recognition_img: autoDraw = False
+245.3514 	EXP 	recognition_resp_prompt_main: autoDraw = False
+245.3514 	EXP 	recognition_resp_prompt_options: autoDraw = False
+245.3514 	EXP 	confidence_resp_prompt_main: autoDraw = True
+245.3514 	EXP 	confidence_ratebar: autoDraw = True
+250.3374 	EXP 	New trial (rep=0, index=1): {'stim': 'SetC/192a.jpg', 'type': 'foil'}
+250.3529 	EXP 	confidence_resp_prompt_main: autoDraw = False
+250.3529 	EXP 	confidence_ratebar: autoDraw = False
+250.3529 	EXP 	fixation: autoDraw = True
+250.8527 	EXP 	fixation: autoDraw = False
+250.8527 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+250.8527 	EXP 	recognition_img: image = 'SetC/192a.jpg'
+250.8527 	EXP 	recognition_img: autoDraw = True
+250.8527 	EXP 	recognition_resp_prompt_main: autoDraw = True
+250.8527 	EXP 	recognition_resp_prompt_options: autoDraw = True
+272.8447 	DATA 	Keypress: k
+272.8590 	EXP 	recognition_img: autoDraw = False
+272.8590 	EXP 	recognition_resp_prompt_main: autoDraw = False
+272.8590 	EXP 	recognition_resp_prompt_options: autoDraw = False
+272.8590 	EXP 	confidence_resp_prompt_main: autoDraw = True
+272.8590 	EXP 	confidence_ratebar: autoDraw = True
+275.8105 	EXP 	New trial (rep=0, index=2): {'stim': 'SetD/028a.jpg', 'type': 'targ'}
+275.8134 	DATA 	Keypress: k
+275.8262 	EXP 	confidence_resp_prompt_main: autoDraw = False
+275.8262 	EXP 	confidence_ratebar: autoDraw = False
+275.8262 	EXP 	fixation: autoDraw = True
+276.3425 	EXP 	fixation: autoDraw = False
+276.3425 	EXP 	fixation: autoDraw = False
+276.3425 	EXP 	recognition_img: size = array([0.18194444, 0.27708333])
+276.3425 	EXP 	recognition_img: image = 'SetD/028a.jpg'
+276.3425 	EXP 	recognition_img: autoDraw = True
+276.3425 	EXP 	recognition_resp_prompt_main: autoDraw = True
+276.3425 	EXP 	recognition_resp_prompt_options: autoDraw = True
+279.6966 	DATA 	Keypress: h
+279.7107 	EXP 	recognition_img: autoDraw = False
+279.7107 	EXP 	recognition_resp_prompt_main: autoDraw = False
+279.7107 	EXP 	recognition_resp_prompt_options: autoDraw = False
+279.7107 	EXP 	confidence_resp_prompt_main: autoDraw = True
+279.7107 	EXP 	confidence_ratebar: autoDraw = True
+281.7278 	EXP 	New trial (rep=0, index=3): {'stim': 'SetC/033a.jpg', 'type': 'foil'}
+281.7298 	DATA 	Keypress: l
+281.7428 	EXP 	confidence_resp_prompt_main: autoDraw = False
+281.7428 	EXP 	confidence_ratebar: autoDraw = False
+281.7428 	EXP 	fixation: autoDraw = True
+282.2474 	EXP 	fixation: autoDraw = False
+282.2474 	EXP 	fixation: autoDraw = False
+282.2474 	EXP 	recognition_img: size = array([0.19861111, 0.27777778])
+282.2474 	EXP 	recognition_img: image = 'SetC/033a.jpg'
+282.2474 	EXP 	recognition_img: autoDraw = True
+282.2474 	EXP 	recognition_resp_prompt_main: autoDraw = True
+282.2474 	EXP 	recognition_resp_prompt_options: autoDraw = True
+286.3643 	DATA 	Keypress: j
+286.3786 	EXP 	recognition_img: autoDraw = False
+286.3786 	EXP 	recognition_resp_prompt_main: autoDraw = False
+286.3786 	EXP 	recognition_resp_prompt_options: autoDraw = False
+286.3786 	EXP 	confidence_resp_prompt_main: autoDraw = True
+286.3786 	EXP 	confidence_ratebar: autoDraw = True
+288.7974 	EXP 	New trial (rep=0, index=4): {'stim': 'SetC/052b.jpg', 'type': 'lure'}
+288.8003 	DATA 	Keypress: k
+288.8122 	EXP 	confidence_resp_prompt_main: autoDraw = False
+288.8122 	EXP 	confidence_ratebar: autoDraw = False
+288.8122 	EXP 	fixation: autoDraw = True
+289.3124 	EXP 	fixation: autoDraw = False
+289.3124 	EXP 	fixation: autoDraw = False
+289.3124 	EXP 	recognition_img: size = array([0.27708333, 0.18263889])
+289.3124 	EXP 	recognition_img: image = 'SetC/052b.jpg'
+289.3124 	EXP 	recognition_img: autoDraw = True
+289.3124 	EXP 	recognition_resp_prompt_main: autoDraw = True
+289.3124 	EXP 	recognition_resp_prompt_options: autoDraw = True
+291.5005 	DATA 	Keypress: h
+291.5127 	EXP 	recognition_img: autoDraw = False
+291.5127 	EXP 	recognition_resp_prompt_main: autoDraw = False
+291.5127 	EXP 	recognition_resp_prompt_options: autoDraw = False
+291.5127 	EXP 	confidence_resp_prompt_main: autoDraw = True
+291.5127 	EXP 	confidence_ratebar: autoDraw = True
+292.7979 	EXP 	New trial (rep=0, index=5): {'stim': 'SetD/063a.jpg', 'type': 'targ'}
+292.8004 	DATA 	Keypress: l
+292.8142 	EXP 	confidence_resp_prompt_main: autoDraw = False
+292.8142 	EXP 	confidence_ratebar: autoDraw = False
+292.8142 	EXP 	fixation: autoDraw = True
+293.3135 	EXP 	fixation: autoDraw = False
+293.3135 	EXP 	fixation: autoDraw = False
+293.3135 	EXP 	recognition_img: size = array([0.27708333, 0.21736111])
+293.3135 	EXP 	recognition_img: image = 'SetD/063a.jpg'
+293.3135 	EXP 	recognition_img: autoDraw = True
+293.3135 	EXP 	recognition_resp_prompt_main: autoDraw = True
+293.3135 	EXP 	recognition_resp_prompt_options: autoDraw = True
+294.9009 	DATA 	Keypress: h
+294.9139 	EXP 	recognition_img: autoDraw = False
+294.9139 	EXP 	recognition_resp_prompt_main: autoDraw = False
+294.9139 	EXP 	recognition_resp_prompt_options: autoDraw = False
+294.9139 	EXP 	confidence_resp_prompt_main: autoDraw = True
+294.9139 	EXP 	confidence_ratebar: autoDraw = True
+296.5810 	EXP 	New trial (rep=0, index=6): {'stim': 'SetC/093a.jpg', 'type': 'foil'}
+296.5837 	DATA 	Keypress: l
+296.5967 	EXP 	confidence_resp_prompt_main: autoDraw = False
+296.5967 	EXP 	confidence_ratebar: autoDraw = False
+296.5967 	EXP 	fixation: autoDraw = True
+297.0962 	EXP 	fixation: autoDraw = False
+297.0962 	EXP 	fixation: autoDraw = False
+297.0962 	EXP 	recognition_img: size = array([0.27708333, 0.225     ])
+297.0962 	EXP 	recognition_img: image = 'SetC/093a.jpg'
+297.0962 	EXP 	recognition_img: autoDraw = True
+297.0962 	EXP 	recognition_resp_prompt_main: autoDraw = True
+297.0962 	EXP 	recognition_resp_prompt_options: autoDraw = True
+299.7508 	DATA 	Keypress: k
+299.7648 	EXP 	recognition_img: autoDraw = False
+299.7648 	EXP 	recognition_resp_prompt_main: autoDraw = False
+299.7648 	EXP 	recognition_resp_prompt_options: autoDraw = False
+299.7648 	EXP 	confidence_resp_prompt_main: autoDraw = True
+299.7648 	EXP 	confidence_ratebar: autoDraw = True
+301.4829 	EXP 	New trial (rep=0, index=7): {'stim': 'SetC/142a.jpg', 'type': 'targ'}
+301.4852 	DATA 	Keypress: j
+301.4991 	EXP 	confidence_resp_prompt_main: autoDraw = False
+301.4991 	EXP 	confidence_ratebar: autoDraw = False
+301.4991 	EXP 	fixation: autoDraw = True
+301.9986 	EXP 	fixation: autoDraw = False
+301.9986 	EXP 	fixation: autoDraw = False
+301.9986 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+301.9986 	EXP 	recognition_img: image = 'SetC/142a.jpg'
+301.9986 	EXP 	recognition_img: autoDraw = True
+301.9986 	EXP 	recognition_resp_prompt_main: autoDraw = True
+301.9986 	EXP 	recognition_resp_prompt_options: autoDraw = True
+304.2215 	DATA 	Keypress: j
+304.2338 	EXP 	recognition_img: autoDraw = False
+304.2338 	EXP 	recognition_resp_prompt_main: autoDraw = False
+304.2338 	EXP 	recognition_resp_prompt_options: autoDraw = False
+304.2338 	EXP 	confidence_resp_prompt_main: autoDraw = True
+304.2338 	EXP 	confidence_ratebar: autoDraw = True
+306.3352 	EXP 	New trial (rep=0, index=8): {'stim': 'SetD/137a.jpg', 'type': 'targ'}
+306.3381 	DATA 	Keypress: k
+306.3504 	EXP 	confidence_resp_prompt_main: autoDraw = False
+306.3504 	EXP 	confidence_ratebar: autoDraw = False
+306.3504 	EXP 	fixation: autoDraw = True
+306.8495 	EXP 	fixation: autoDraw = False
+306.8495 	EXP 	fixation: autoDraw = False
+306.8495 	EXP 	recognition_img: size = array([0.27777778, 0.25486111])
+306.8495 	EXP 	recognition_img: image = 'SetD/137a.jpg'
+306.8495 	EXP 	recognition_img: autoDraw = True
+306.8495 	EXP 	recognition_resp_prompt_main: autoDraw = True
+306.8495 	EXP 	recognition_resp_prompt_options: autoDraw = True
+310.8392 	DATA 	Keypress: k
+310.8519 	EXP 	recognition_img: autoDraw = False
+310.8519 	EXP 	recognition_resp_prompt_main: autoDraw = False
+310.8519 	EXP 	recognition_resp_prompt_options: autoDraw = False
+310.8519 	EXP 	confidence_resp_prompt_main: autoDraw = True
+310.8519 	EXP 	confidence_ratebar: autoDraw = True
+312.0031 	EXP 	New trial (rep=0, index=9): {'stim': 'SetD/174b.jpg', 'type': 'lure'}
+312.0060 	DATA 	Keypress: j
+312.0176 	EXP 	confidence_resp_prompt_main: autoDraw = False
+312.0176 	EXP 	confidence_ratebar: autoDraw = False
+312.0176 	EXP 	fixation: autoDraw = True
+312.5181 	EXP 	fixation: autoDraw = False
+312.5181 	EXP 	fixation: autoDraw = False
+312.5181 	EXP 	recognition_img: size = array([0.27777778, 0.21875   ])
+312.5181 	EXP 	recognition_img: image = 'SetD/174b.jpg'
+312.5181 	EXP 	recognition_img: autoDraw = True
+312.5181 	EXP 	recognition_resp_prompt_main: autoDraw = True
+312.5181 	EXP 	recognition_resp_prompt_options: autoDraw = True
+315.0405 	DATA 	Keypress: h
+315.0525 	EXP 	recognition_img: autoDraw = False
+315.0525 	EXP 	recognition_resp_prompt_main: autoDraw = False
+315.0525 	EXP 	recognition_resp_prompt_options: autoDraw = False
+315.0525 	EXP 	confidence_resp_prompt_main: autoDraw = True
+315.0525 	EXP 	confidence_ratebar: autoDraw = True
+316.5879 	EXP 	New trial (rep=0, index=10): {'stim': 'SetD/153a.jpg', 'type': 'targ'}
+316.5907 	DATA 	Keypress: k
+316.6030 	EXP 	confidence_resp_prompt_main: autoDraw = False
+316.6030 	EXP 	confidence_ratebar: autoDraw = False
+316.6030 	EXP 	fixation: autoDraw = True
+317.1119 	EXP 	fixation: autoDraw = False
+317.1119 	EXP 	fixation: autoDraw = False
+317.1119 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+317.1119 	EXP 	recognition_img: image = 'SetD/153a.jpg'
+317.1119 	EXP 	recognition_img: autoDraw = True
+317.1119 	EXP 	recognition_resp_prompt_main: autoDraw = True
+317.1119 	EXP 	recognition_resp_prompt_options: autoDraw = True
+318.9072 	DATA 	Keypress: j
+318.9372 	EXP 	recognition_img: autoDraw = False
+318.9372 	EXP 	recognition_resp_prompt_main: autoDraw = False
+318.9372 	EXP 	recognition_resp_prompt_options: autoDraw = False
+318.9372 	EXP 	confidence_resp_prompt_main: autoDraw = True
+318.9372 	EXP 	confidence_ratebar: autoDraw = True
+319.9891 	EXP 	New trial (rep=0, index=11): {'stim': 'SetD/007a.jpg', 'type': 'foil'}
+319.9918 	DATA 	Keypress: l
+320.0032 	EXP 	confidence_resp_prompt_main: autoDraw = False
+320.0032 	EXP 	confidence_ratebar: autoDraw = False
+320.0032 	EXP 	fixation: autoDraw = True
+320.5043 	EXP 	fixation: autoDraw = False
+320.5043 	EXP 	fixation: autoDraw = False
+320.5043 	EXP 	recognition_img: size = array([0.27708333, 0.20972222])
+320.5043 	EXP 	recognition_img: image = 'SetD/007a.jpg'
+320.5043 	EXP 	recognition_img: autoDraw = True
+320.5043 	EXP 	recognition_resp_prompt_main: autoDraw = True
+320.5043 	EXP 	recognition_resp_prompt_options: autoDraw = True
+321.9912 	DATA 	Keypress: k
+322.0035 	EXP 	recognition_img: autoDraw = False
+322.0035 	EXP 	recognition_resp_prompt_main: autoDraw = False
+322.0035 	EXP 	recognition_resp_prompt_options: autoDraw = False
+322.0035 	EXP 	confidence_resp_prompt_main: autoDraw = True
+322.0035 	EXP 	confidence_ratebar: autoDraw = True
+323.2389 	EXP 	New trial (rep=0, index=12): {'stim': 'SetD/001a.jpg', 'type': 'targ'}
+323.2412 	DATA 	Keypress: h
+323.2552 	EXP 	confidence_resp_prompt_main: autoDraw = False
+323.2552 	EXP 	confidence_ratebar: autoDraw = False
+323.2552 	EXP 	fixation: autoDraw = True
+323.7621 	EXP 	fixation: autoDraw = False
+323.7621 	EXP 	fixation: autoDraw = False
+323.7621 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+323.7621 	EXP 	recognition_img: image = 'SetD/001a.jpg'
+323.7621 	EXP 	recognition_img: autoDraw = True
+323.7621 	EXP 	recognition_resp_prompt_main: autoDraw = True
+323.7621 	EXP 	recognition_resp_prompt_options: autoDraw = True
+327.5598 	DATA 	Keypress: j
+327.5719 	EXP 	recognition_img: autoDraw = False
+327.5719 	EXP 	recognition_resp_prompt_main: autoDraw = False
+327.5719 	EXP 	recognition_resp_prompt_options: autoDraw = False
+327.5719 	EXP 	confidence_resp_prompt_main: autoDraw = True
+327.5719 	EXP 	confidence_ratebar: autoDraw = True
+331.5081 	EXP 	New trial (rep=0, index=13): {'stim': 'SetD/025a.jpg', 'type': 'foil'}
+331.5108 	DATA 	Keypress: j
+331.5227 	EXP 	confidence_resp_prompt_main: autoDraw = False
+331.5227 	EXP 	confidence_ratebar: autoDraw = False
+331.5227 	EXP 	fixation: autoDraw = True
+332.0276 	EXP 	fixation: autoDraw = False
+332.0276 	EXP 	fixation: autoDraw = False
+332.0276 	EXP 	recognition_img: size = array([0.20694444, 0.27777778])
+332.0276 	EXP 	recognition_img: image = 'SetD/025a.jpg'
+332.0276 	EXP 	recognition_img: autoDraw = True
+332.0276 	EXP 	recognition_resp_prompt_main: autoDraw = True
+332.0276 	EXP 	recognition_resp_prompt_options: autoDraw = True
+334.3456 	DATA 	Keypress: k
+334.3579 	EXP 	recognition_img: autoDraw = False
+334.3579 	EXP 	recognition_resp_prompt_main: autoDraw = False
+334.3579 	EXP 	recognition_resp_prompt_options: autoDraw = False
+334.3579 	EXP 	confidence_resp_prompt_main: autoDraw = True
+334.3579 	EXP 	confidence_ratebar: autoDraw = True
+335.3929 	EXP 	New trial (rep=0, index=14): {'stim': 'SetC/190a.jpg', 'type': 'targ'}
+335.3957 	DATA 	Keypress: k
+335.4080 	EXP 	confidence_resp_prompt_main: autoDraw = False
+335.4080 	EXP 	confidence_ratebar: autoDraw = False
+335.4080 	EXP 	fixation: autoDraw = True
+335.9069 	EXP 	fixation: autoDraw = False
+335.9069 	EXP 	fixation: autoDraw = False
+335.9069 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+335.9069 	EXP 	recognition_img: image = 'SetC/190a.jpg'
+335.9069 	EXP 	recognition_img: autoDraw = True
+335.9069 	EXP 	recognition_resp_prompt_main: autoDraw = True
+335.9069 	EXP 	recognition_resp_prompt_options: autoDraw = True
+337.1605 	DATA 	Keypress: h
+337.1763 	EXP 	recognition_img: autoDraw = False
+337.1763 	EXP 	recognition_resp_prompt_main: autoDraw = False
+337.1763 	EXP 	recognition_resp_prompt_options: autoDraw = False
+337.1763 	EXP 	confidence_resp_prompt_main: autoDraw = True
+337.1763 	EXP 	confidence_ratebar: autoDraw = True
+338.5099 	EXP 	New trial (rep=0, index=15): {'stim': 'SetD/142b.jpg', 'type': 'lure'}
+338.5127 	DATA 	Keypress: j
+338.5250 	EXP 	confidence_resp_prompt_main: autoDraw = False
+338.5250 	EXP 	confidence_ratebar: autoDraw = False
+338.5250 	EXP 	fixation: autoDraw = True
+339.0277 	EXP 	fixation: autoDraw = False
+339.0277 	EXP 	fixation: autoDraw = False
+339.0277 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+339.0277 	EXP 	recognition_img: image = 'SetD/142b.jpg'
+339.0277 	EXP 	recognition_img: autoDraw = True
+339.0277 	EXP 	recognition_resp_prompt_main: autoDraw = True
+339.0277 	EXP 	recognition_resp_prompt_options: autoDraw = True
+340.5643 	DATA 	Keypress: j
+340.5757 	EXP 	recognition_img: autoDraw = False
+340.5757 	EXP 	recognition_resp_prompt_main: autoDraw = False
+340.5757 	EXP 	recognition_resp_prompt_options: autoDraw = False
+340.5757 	EXP 	confidence_resp_prompt_main: autoDraw = True
+340.5757 	EXP 	confidence_ratebar: autoDraw = True
+341.7606 	EXP 	New trial (rep=0, index=16): {'stim': 'SetD/109a.jpg', 'type': 'targ'}
+341.7630 	DATA 	Keypress: l
+341.7754 	EXP 	confidence_resp_prompt_main: autoDraw = False
+341.7754 	EXP 	confidence_ratebar: autoDraw = False
+341.7754 	EXP 	fixation: autoDraw = True
+342.2754 	EXP 	fixation: autoDraw = False
+342.2754 	EXP 	fixation: autoDraw = False
+342.2754 	EXP 	recognition_img: size = array([0.27777778, 0.18472222])
+342.2754 	EXP 	recognition_img: image = 'SetD/109a.jpg'
+342.2754 	EXP 	recognition_img: autoDraw = True
+342.2754 	EXP 	recognition_resp_prompt_main: autoDraw = True
+342.2754 	EXP 	recognition_resp_prompt_options: autoDraw = True
+344.0974 	DATA 	Keypress: k
+344.1266 	EXP 	recognition_img: autoDraw = False
+344.1266 	EXP 	recognition_resp_prompt_main: autoDraw = False
+344.1266 	EXP 	recognition_resp_prompt_options: autoDraw = False
+344.1266 	EXP 	confidence_resp_prompt_main: autoDraw = True
+344.1266 	EXP 	confidence_ratebar: autoDraw = True
+344.8944 	EXP 	New trial (rep=0, index=17): {'stim': 'SetC/028b.jpg', 'type': 'lure'}
+344.8966 	DATA 	Keypress: j
+344.9096 	EXP 	confidence_resp_prompt_main: autoDraw = False
+344.9096 	EXP 	confidence_ratebar: autoDraw = False
+344.9096 	EXP 	fixation: autoDraw = True
+345.4271 	EXP 	fixation: autoDraw = False
+345.4271 	EXP 	fixation: autoDraw = False
+345.4271 	EXP 	recognition_img: size = array([0.18333333, 0.27777778])
+345.4271 	EXP 	recognition_img: image = 'SetC/028b.jpg'
+345.4271 	EXP 	recognition_img: autoDraw = True
+345.4271 	EXP 	recognition_resp_prompt_main: autoDraw = True
+345.4271 	EXP 	recognition_resp_prompt_options: autoDraw = True
+346.6483 	DATA 	Keypress: h
+346.6606 	EXP 	recognition_img: autoDraw = False
+346.6606 	EXP 	recognition_resp_prompt_main: autoDraw = False
+346.6606 	EXP 	recognition_resp_prompt_options: autoDraw = False
+346.6606 	EXP 	confidence_resp_prompt_main: autoDraw = True
+346.6606 	EXP 	confidence_ratebar: autoDraw = True
+347.9121 	EXP 	New trial (rep=0, index=18): {'stim': 'SetD/003b.jpg', 'type': 'lure'}
+347.9152 	DATA 	Keypress: j
+347.9279 	EXP 	confidence_resp_prompt_main: autoDraw = False
+347.9279 	EXP 	confidence_ratebar: autoDraw = False
+347.9279 	EXP 	fixation: autoDraw = True
+348.4443 	EXP 	fixation: autoDraw = False
+348.4443 	EXP 	fixation: autoDraw = False
+348.4443 	EXP 	recognition_img: size = array([0.23819444, 0.27777778])
+348.4443 	EXP 	recognition_img: image = 'SetD/003b.jpg'
+348.4443 	EXP 	recognition_img: autoDraw = True
+348.4443 	EXP 	recognition_resp_prompt_main: autoDraw = True
+348.4443 	EXP 	recognition_resp_prompt_options: autoDraw = True
+350.3485 	DATA 	Keypress: h
+350.3607 	EXP 	recognition_img: autoDraw = False
+350.3607 	EXP 	recognition_resp_prompt_main: autoDraw = False
+350.3607 	EXP 	recognition_resp_prompt_options: autoDraw = False
+350.3607 	EXP 	confidence_resp_prompt_main: autoDraw = True
+350.3607 	EXP 	confidence_ratebar: autoDraw = True
+351.2970 	EXP 	New trial (rep=0, index=19): {'stim': 'SetD/098a.jpg', 'type': 'targ'}
+351.2998 	DATA 	Keypress: k
+351.3105 	EXP 	confidence_resp_prompt_main: autoDraw = False
+351.3105 	EXP 	confidence_ratebar: autoDraw = False
+351.3105 	EXP 	fixation: autoDraw = True
+351.8276 	EXP 	fixation: autoDraw = False
+351.8276 	EXP 	fixation: autoDraw = False
+351.8276 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+351.8276 	EXP 	recognition_img: image = 'SetD/098a.jpg'
+351.8276 	EXP 	recognition_img: autoDraw = True
+351.8276 	EXP 	recognition_resp_prompt_main: autoDraw = True
+351.8276 	EXP 	recognition_resp_prompt_options: autoDraw = True
+353.6819 	DATA 	Keypress: k
+353.6961 	EXP 	recognition_img: autoDraw = False
+353.6961 	EXP 	recognition_resp_prompt_main: autoDraw = False
+353.6961 	EXP 	recognition_resp_prompt_options: autoDraw = False
+353.6961 	EXP 	confidence_resp_prompt_main: autoDraw = True
+353.6961 	EXP 	confidence_ratebar: autoDraw = True
+354.4476 	EXP 	New trial (rep=0, index=20): {'stim': 'SetD/027b.jpg', 'type': 'lure'}
+354.4504 	DATA 	Keypress: l
+354.4624 	EXP 	confidence_resp_prompt_main: autoDraw = False
+354.4624 	EXP 	confidence_ratebar: autoDraw = False
+354.4624 	EXP 	fixation: autoDraw = True
+354.9625 	EXP 	fixation: autoDraw = False
+354.9625 	EXP 	fixation: autoDraw = False
+354.9625 	EXP 	recognition_img: size = array([0.27777778, 0.12777778])
+354.9625 	EXP 	recognition_img: image = 'SetD/027b.jpg'
+354.9625 	EXP 	recognition_img: autoDraw = True
+354.9625 	EXP 	recognition_resp_prompt_main: autoDraw = True
+354.9625 	EXP 	recognition_resp_prompt_options: autoDraw = True
+356.2823 	DATA 	Keypress: j
+356.2955 	EXP 	recognition_img: autoDraw = False
+356.2955 	EXP 	recognition_resp_prompt_main: autoDraw = False
+356.2955 	EXP 	recognition_resp_prompt_options: autoDraw = False
+356.2955 	EXP 	confidence_resp_prompt_main: autoDraw = True
+356.2955 	EXP 	confidence_ratebar: autoDraw = True
+357.7305 	EXP 	New trial (rep=0, index=21): {'stim': 'SetD/011a.jpg', 'type': 'targ'}
+357.7328 	DATA 	Keypress: k
+357.7466 	EXP 	confidence_resp_prompt_main: autoDraw = False
+357.7466 	EXP 	confidence_ratebar: autoDraw = False
+357.7466 	EXP 	fixation: autoDraw = True
+358.2607 	EXP 	fixation: autoDraw = False
+358.2607 	EXP 	fixation: autoDraw = False
+358.2607 	EXP 	recognition_img: size = array([0.27708333, 0.27083333])
+358.2607 	EXP 	recognition_img: image = 'SetD/011a.jpg'
+358.2607 	EXP 	recognition_img: autoDraw = True
+358.2607 	EXP 	recognition_resp_prompt_main: autoDraw = True
+358.2607 	EXP 	recognition_resp_prompt_options: autoDraw = True
+359.4510 	DATA 	Keypress: h
+359.4809 	EXP 	recognition_img: autoDraw = False
+359.4809 	EXP 	recognition_resp_prompt_main: autoDraw = False
+359.4809 	EXP 	recognition_resp_prompt_options: autoDraw = False
+359.4809 	EXP 	confidence_resp_prompt_main: autoDraw = True
+359.4809 	EXP 	confidence_ratebar: autoDraw = True
+360.1828 	EXP 	New trial (rep=0, index=22): {'stim': 'SetC/019a.jpg', 'type': 'targ'}
+360.1857 	DATA 	Keypress: j
+360.1979 	EXP 	confidence_resp_prompt_main: autoDraw = False
+360.1979 	EXP 	confidence_ratebar: autoDraw = False
+360.1979 	EXP 	fixation: autoDraw = True
+360.6978 	EXP 	fixation: autoDraw = False
+360.6978 	EXP 	fixation: autoDraw = False
+360.6978 	EXP 	recognition_img: size = array([0.27777778, 0.14513889])
+360.6978 	EXP 	recognition_img: image = 'SetC/019a.jpg'
+360.6978 	EXP 	recognition_img: autoDraw = True
+360.6978 	EXP 	recognition_resp_prompt_main: autoDraw = True
+360.6978 	EXP 	recognition_resp_prompt_options: autoDraw = True
+361.8351 	DATA 	Keypress: h
+361.8645 	EXP 	recognition_img: autoDraw = False
+361.8645 	EXP 	recognition_resp_prompt_main: autoDraw = False
+361.8645 	EXP 	recognition_resp_prompt_options: autoDraw = False
+361.8645 	EXP 	confidence_resp_prompt_main: autoDraw = True
+361.8645 	EXP 	confidence_ratebar: autoDraw = True
+362.6980 	EXP 	New trial (rep=0, index=23): {'stim': 'SetD/147a.jpg', 'type': 'targ'}
+362.7000 	DATA 	Keypress: j
+362.7145 	EXP 	confidence_resp_prompt_main: autoDraw = False
+362.7145 	EXP 	confidence_ratebar: autoDraw = False
+362.7145 	EXP 	fixation: autoDraw = True
+363.2155 	EXP 	fixation: autoDraw = False
+363.2155 	EXP 	fixation: autoDraw = False
+363.2155 	EXP 	recognition_img: size = array([0.27777778, 0.18472222])
+363.2155 	EXP 	recognition_img: image = 'SetD/147a.jpg'
+363.2155 	EXP 	recognition_img: autoDraw = True
+363.2155 	EXP 	recognition_resp_prompt_main: autoDraw = True
+363.2155 	EXP 	recognition_resp_prompt_options: autoDraw = True
+364.6042 	DATA 	Keypress: j
+364.6156 	EXP 	recognition_img: autoDraw = False
+364.6156 	EXP 	recognition_resp_prompt_main: autoDraw = False
+364.6156 	EXP 	recognition_resp_prompt_options: autoDraw = False
+364.6156 	EXP 	confidence_resp_prompt_main: autoDraw = True
+364.6156 	EXP 	confidence_ratebar: autoDraw = True
+365.2161 	EXP 	New trial (rep=0, index=24): {'stim': 'SetD/154b.jpg', 'type': 'lure'}
+365.2184 	DATA 	Keypress: l
+365.2318 	EXP 	confidence_resp_prompt_main: autoDraw = False
+365.2318 	EXP 	confidence_ratebar: autoDraw = False
+365.2318 	EXP 	fixation: autoDraw = True
+365.7425 	EXP 	fixation: autoDraw = False
+365.7425 	EXP 	fixation: autoDraw = False
+365.7425 	EXP 	recognition_img: size = array([0.24375   , 0.27777778])
+365.7425 	EXP 	recognition_img: image = 'SetD/154b.jpg'
+365.7425 	EXP 	recognition_img: autoDraw = True
+365.7425 	EXP 	recognition_resp_prompt_main: autoDraw = True
+365.7425 	EXP 	recognition_resp_prompt_options: autoDraw = True
+367.2476 	DATA 	Keypress: j
+367.2766 	EXP 	recognition_img: autoDraw = False
+367.2766 	EXP 	recognition_resp_prompt_main: autoDraw = False
+367.2766 	EXP 	recognition_resp_prompt_options: autoDraw = False
+367.2766 	EXP 	confidence_resp_prompt_main: autoDraw = True
+367.2766 	EXP 	confidence_ratebar: autoDraw = True
+367.9512 	EXP 	New trial (rep=0, index=25): {'stim': 'SetC/168b.jpg', 'type': 'lure'}
+367.9539 	DATA 	Keypress: k
+367.9658 	EXP 	confidence_resp_prompt_main: autoDraw = False
+367.9658 	EXP 	confidence_ratebar: autoDraw = False
+367.9658 	EXP 	fixation: autoDraw = True
+368.4769 	EXP 	fixation: autoDraw = False
+368.4769 	EXP 	fixation: autoDraw = False
+368.4769 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+368.4769 	EXP 	recognition_img: image = 'SetC/168b.jpg'
+368.4769 	EXP 	recognition_img: autoDraw = True
+368.4769 	EXP 	recognition_resp_prompt_main: autoDraw = True
+368.4769 	EXP 	recognition_resp_prompt_options: autoDraw = True
+369.6880 	DATA 	Keypress: j
+369.7171 	EXP 	recognition_img: autoDraw = False
+369.7171 	EXP 	recognition_resp_prompt_main: autoDraw = False
+369.7171 	EXP 	recognition_resp_prompt_options: autoDraw = False
+369.7171 	EXP 	confidence_resp_prompt_main: autoDraw = True
+369.7171 	EXP 	confidence_ratebar: autoDraw = True
+370.1854 	EXP 	New trial (rep=0, index=26): {'stim': 'SetC/089b.jpg', 'type': 'lure'}
+370.1882 	DATA 	Keypress: l
+370.1995 	EXP 	confidence_resp_prompt_main: autoDraw = False
+370.1995 	EXP 	confidence_ratebar: autoDraw = False
+370.1995 	EXP 	fixation: autoDraw = True
+370.6998 	EXP 	fixation: autoDraw = False
+370.6998 	EXP 	fixation: autoDraw = False
+370.6998 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+370.6998 	EXP 	recognition_img: image = 'SetC/089b.jpg'
+370.6998 	EXP 	recognition_img: autoDraw = True
+370.6998 	EXP 	recognition_resp_prompt_main: autoDraw = True
+370.6998 	EXP 	recognition_resp_prompt_options: autoDraw = True
+372.0720 	DATA 	Keypress: j
+372.0838 	EXP 	recognition_img: autoDraw = False
+372.0838 	EXP 	recognition_resp_prompt_main: autoDraw = False
+372.0838 	EXP 	recognition_resp_prompt_options: autoDraw = False
+372.0838 	EXP 	confidence_resp_prompt_main: autoDraw = True
+372.0838 	EXP 	confidence_ratebar: autoDraw = True
+373.4677 	EXP 	New trial (rep=0, index=27): {'stim': 'SetD/187a.jpg', 'type': 'foil'}
+373.4696 	DATA 	Keypress: k
+373.4844 	EXP 	confidence_resp_prompt_main: autoDraw = False
+373.4844 	EXP 	confidence_ratebar: autoDraw = False
+373.4844 	EXP 	fixation: autoDraw = True
+373.9929 	EXP 	fixation: autoDraw = False
+373.9929 	EXP 	fixation: autoDraw = False
+373.9929 	EXP 	recognition_img: size = array([0.24722222, 0.27777778])
+373.9929 	EXP 	recognition_img: image = 'SetD/187a.jpg'
+373.9929 	EXP 	recognition_img: autoDraw = True
+373.9929 	EXP 	recognition_resp_prompt_main: autoDraw = True
+373.9929 	EXP 	recognition_resp_prompt_options: autoDraw = True
+376.1231 	DATA 	Keypress: k
+376.1518 	EXP 	recognition_img: autoDraw = False
+376.1518 	EXP 	recognition_resp_prompt_main: autoDraw = False
+376.1518 	EXP 	recognition_resp_prompt_options: autoDraw = False
+376.1518 	EXP 	confidence_resp_prompt_main: autoDraw = True
+376.1518 	EXP 	confidence_ratebar: autoDraw = True
+377.0531 	EXP 	New trial (rep=0, index=28): {'stim': 'SetD/155a.jpg', 'type': 'foil'}
+377.0564 	DATA 	Keypress: k
+377.0678 	EXP 	confidence_resp_prompt_main: autoDraw = False
+377.0678 	EXP 	confidence_ratebar: autoDraw = False
+377.0678 	EXP 	fixation: autoDraw = True
+377.5679 	EXP 	fixation: autoDraw = False
+377.5679 	EXP 	fixation: autoDraw = False
+377.5679 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+377.5679 	EXP 	recognition_img: image = 'SetD/155a.jpg'
+377.5679 	EXP 	recognition_img: autoDraw = True
+377.5679 	EXP 	recognition_resp_prompt_main: autoDraw = True
+377.5679 	EXP 	recognition_resp_prompt_options: autoDraw = True
+379.9124 	DATA 	Keypress: j
+379.9192 	EXP 	recognition_img: autoDraw = False
+379.9192 	EXP 	recognition_resp_prompt_main: autoDraw = False
+379.9192 	EXP 	recognition_resp_prompt_options: autoDraw = False
+379.9192 	EXP 	confidence_resp_prompt_main: autoDraw = True
+379.9192 	EXP 	confidence_ratebar: autoDraw = True
+380.6762 	EXP 	New trial (rep=0, index=29): {'stim': 'SetD/126b.jpg', 'type': 'lure'}
+380.6785 	DATA 	Keypress: k
+380.6853 	EXP 	confidence_resp_prompt_main: autoDraw = False
+380.6853 	EXP 	confidence_ratebar: autoDraw = False
+380.6853 	EXP 	fixation: autoDraw = True
+381.2025 	EXP 	fixation: autoDraw = False
+381.2025 	EXP 	fixation: autoDraw = False
+381.2025 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+381.2025 	EXP 	recognition_img: image = 'SetD/126b.jpg'
+381.2025 	EXP 	recognition_img: autoDraw = True
+381.2025 	EXP 	recognition_resp_prompt_main: autoDraw = True
+381.2025 	EXP 	recognition_resp_prompt_options: autoDraw = True
+382.8575 	DATA 	Keypress: j
+382.8696 	EXP 	recognition_img: autoDraw = False
+382.8696 	EXP 	recognition_resp_prompt_main: autoDraw = False
+382.8696 	EXP 	recognition_resp_prompt_options: autoDraw = False
+382.8696 	EXP 	confidence_resp_prompt_main: autoDraw = True
+382.8696 	EXP 	confidence_ratebar: autoDraw = True
+384.1548 	EXP 	New trial (rep=0, index=30): {'stim': 'SetC/039a.jpg', 'type': 'targ'}
+384.1575 	DATA 	Keypress: l
+384.1700 	EXP 	confidence_resp_prompt_main: autoDraw = False
+384.1700 	EXP 	confidence_ratebar: autoDraw = False
+384.1700 	EXP 	fixation: autoDraw = True
+384.6751 	EXP 	fixation: autoDraw = False
+384.6751 	EXP 	fixation: autoDraw = False
+384.6751 	EXP 	recognition_img: size = array([0.26597222, 0.27777778])
+384.6751 	EXP 	recognition_img: image = 'SetC/039a.jpg'
+384.6751 	EXP 	recognition_img: autoDraw = True
+384.6751 	EXP 	recognition_resp_prompt_main: autoDraw = True
+384.6751 	EXP 	recognition_resp_prompt_options: autoDraw = True
+386.1402 	DATA 	Keypress: h
+386.1540 	EXP 	recognition_img: autoDraw = False
+386.1540 	EXP 	recognition_resp_prompt_main: autoDraw = False
+386.1540 	EXP 	recognition_resp_prompt_options: autoDraw = False
+386.1540 	EXP 	confidence_resp_prompt_main: autoDraw = True
+386.1540 	EXP 	confidence_ratebar: autoDraw = True
+387.1244 	DATA 	Keypress: l
+387.1392 	EXP 	New trial (rep=0, index=31): {'stim': 'SetD/010b.jpg', 'type': 'lure'}
+387.1536 	EXP 	confidence_resp_prompt_main: autoDraw = False
+387.1536 	EXP 	confidence_ratebar: autoDraw = False
+387.1536 	EXP 	fixation: autoDraw = True
+387.6586 	EXP 	fixation: autoDraw = False
+387.6586 	EXP 	fixation: autoDraw = False
+387.6586 	EXP 	recognition_img: size = array([0.27708333, 0.27708333])
+387.6586 	EXP 	recognition_img: image = 'SetD/010b.jpg'
+387.6586 	EXP 	recognition_img: autoDraw = True
+387.6586 	EXP 	recognition_resp_prompt_main: autoDraw = True
+387.6586 	EXP 	recognition_resp_prompt_options: autoDraw = True
+390.5248 	DATA 	Keypress: h
+390.5390 	EXP 	recognition_img: autoDraw = False
+390.5390 	EXP 	recognition_resp_prompt_main: autoDraw = False
+390.5390 	EXP 	recognition_resp_prompt_options: autoDraw = False
+390.5390 	EXP 	confidence_resp_prompt_main: autoDraw = True
+390.5390 	EXP 	confidence_ratebar: autoDraw = True
+391.3732 	EXP 	New trial (rep=0, index=32): {'stim': 'SetD/046a.jpg', 'type': 'foil'}
+391.3760 	DATA 	Keypress: k
+391.3880 	EXP 	confidence_resp_prompt_main: autoDraw = False
+391.3880 	EXP 	confidence_ratebar: autoDraw = False
+391.3880 	EXP 	fixation: autoDraw = True
+391.8884 	EXP 	fixation: autoDraw = False
+391.8884 	EXP 	fixation: autoDraw = False
+391.8884 	EXP 	recognition_img: size = array([0.20416667, 0.27708333])
+391.8884 	EXP 	recognition_img: image = 'SetD/046a.jpg'
+391.8884 	EXP 	recognition_img: autoDraw = True
+391.8884 	EXP 	recognition_resp_prompt_main: autoDraw = True
+391.8884 	EXP 	recognition_resp_prompt_options: autoDraw = True
+393.0769 	DATA 	Keypress: k
+393.1063 	EXP 	recognition_img: autoDraw = False
+393.1063 	EXP 	recognition_resp_prompt_main: autoDraw = False
+393.1063 	EXP 	recognition_resp_prompt_options: autoDraw = False
+393.1063 	EXP 	confidence_resp_prompt_main: autoDraw = True
+393.1063 	EXP 	confidence_ratebar: autoDraw = True
+393.6582 	EXP 	New trial (rep=0, index=33): {'stim': 'SetD/150a.jpg', 'type': 'foil'}
+393.6610 	DATA 	Keypress: l
+393.6732 	EXP 	confidence_resp_prompt_main: autoDraw = False
+393.6732 	EXP 	confidence_ratebar: autoDraw = False
+393.6732 	EXP 	fixation: autoDraw = True
+394.1725 	EXP 	fixation: autoDraw = False
+394.1725 	EXP 	fixation: autoDraw = False
+394.1725 	EXP 	recognition_img: size = array([0.27777778, 0.26875   ])
+394.1725 	EXP 	recognition_img: image = 'SetD/150a.jpg'
+394.1725 	EXP 	recognition_img: autoDraw = True
+394.1725 	EXP 	recognition_resp_prompt_main: autoDraw = True
+394.1725 	EXP 	recognition_resp_prompt_options: autoDraw = True
+397.8620 	DATA 	Keypress: k
+397.8744 	EXP 	recognition_img: autoDraw = False
+397.8744 	EXP 	recognition_resp_prompt_main: autoDraw = False
+397.8744 	EXP 	recognition_resp_prompt_options: autoDraw = False
+397.8744 	EXP 	confidence_resp_prompt_main: autoDraw = True
+397.8744 	EXP 	confidence_ratebar: autoDraw = True
+398.4253 	EXP 	New trial (rep=0, index=34): {'stim': 'SetD/105b.jpg', 'type': 'lure'}
+398.4277 	DATA 	Keypress: l
+398.4409 	EXP 	confidence_resp_prompt_main: autoDraw = False
+398.4409 	EXP 	confidence_ratebar: autoDraw = False
+398.4409 	EXP 	fixation: autoDraw = True
+398.9406 	EXP 	fixation: autoDraw = False
+398.9406 	EXP 	fixation: autoDraw = False
+398.9406 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+398.9406 	EXP 	recognition_img: image = 'SetD/105b.jpg'
+398.9406 	EXP 	recognition_img: autoDraw = True
+398.9406 	EXP 	recognition_resp_prompt_main: autoDraw = True
+398.9406 	EXP 	recognition_resp_prompt_options: autoDraw = True
+401.2104 	DATA 	Keypress: k
+401.2243 	EXP 	recognition_img: autoDraw = False
+401.2243 	EXP 	recognition_resp_prompt_main: autoDraw = False
+401.2243 	EXP 	recognition_resp_prompt_options: autoDraw = False
+401.2243 	EXP 	confidence_resp_prompt_main: autoDraw = True
+401.2243 	EXP 	confidence_ratebar: autoDraw = True
+401.6758 	EXP 	New trial (rep=0, index=35): {'stim': 'SetD/101b.jpg', 'type': 'lure'}
+401.6782 	DATA 	Keypress: l
+401.6906 	EXP 	confidence_resp_prompt_main: autoDraw = False
+401.6906 	EXP 	confidence_ratebar: autoDraw = False
+401.6906 	EXP 	fixation: autoDraw = True
+402.2080 	EXP 	fixation: autoDraw = False
+402.2080 	EXP 	fixation: autoDraw = False
+402.2080 	EXP 	recognition_img: size = array([0.18263889, 0.27777778])
+402.2080 	EXP 	recognition_img: image = 'SetD/101b.jpg'
+402.2080 	EXP 	recognition_img: autoDraw = True
+402.2080 	EXP 	recognition_resp_prompt_main: autoDraw = True
+402.2080 	EXP 	recognition_resp_prompt_options: autoDraw = True
+403.4961 	DATA 	Keypress: j
+403.5085 	EXP 	recognition_img: autoDraw = False
+403.5085 	EXP 	recognition_resp_prompt_main: autoDraw = False
+403.5085 	EXP 	recognition_resp_prompt_options: autoDraw = False
+403.5085 	EXP 	confidence_resp_prompt_main: autoDraw = True
+403.5085 	EXP 	confidence_ratebar: autoDraw = True
+404.2915 	EXP 	New trial (rep=0, index=36): {'stim': 'SetC/145b.jpg', 'type': 'lure'}
+404.2936 	DATA 	Keypress: k
+404.3088 	EXP 	confidence_resp_prompt_main: autoDraw = False
+404.3088 	EXP 	confidence_ratebar: autoDraw = False
+404.3088 	EXP 	fixation: autoDraw = True
+404.8243 	EXP 	fixation: autoDraw = False
+404.8243 	EXP 	fixation: autoDraw = False
+404.8243 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+404.8243 	EXP 	recognition_img: image = 'SetC/145b.jpg'
+404.8243 	EXP 	recognition_img: autoDraw = True
+404.8243 	EXP 	recognition_resp_prompt_main: autoDraw = True
+404.8243 	EXP 	recognition_resp_prompt_options: autoDraw = True
+408.1814 	DATA 	Keypress: j
+408.1935 	EXP 	recognition_img: autoDraw = False
+408.1935 	EXP 	recognition_resp_prompt_main: autoDraw = False
+408.1935 	EXP 	recognition_resp_prompt_options: autoDraw = False
+408.1935 	EXP 	confidence_resp_prompt_main: autoDraw = True
+408.1935 	EXP 	confidence_ratebar: autoDraw = True
+409.5454 	EXP 	New trial (rep=0, index=37): {'stim': 'SetC/047b.jpg', 'type': 'lure'}
+409.5482 	DATA 	Keypress: l
+409.5605 	EXP 	confidence_resp_prompt_main: autoDraw = False
+409.5605 	EXP 	confidence_ratebar: autoDraw = False
+409.5605 	EXP 	fixation: autoDraw = True
+410.0741 	EXP 	fixation: autoDraw = False
+410.0741 	EXP 	fixation: autoDraw = False
+410.0741 	EXP 	recognition_img: size = array([0.27777778, 0.20277778])
+410.0741 	EXP 	recognition_img: image = 'SetC/047b.jpg'
+410.0741 	EXP 	recognition_img: autoDraw = True
+410.0741 	EXP 	recognition_resp_prompt_main: autoDraw = True
+410.0741 	EXP 	recognition_resp_prompt_options: autoDraw = True
+410.9649 	DATA 	Keypress: h
+410.9769 	EXP 	recognition_img: autoDraw = False
+410.9769 	EXP 	recognition_resp_prompt_main: autoDraw = False
+410.9769 	EXP 	recognition_resp_prompt_options: autoDraw = False
+410.9769 	EXP 	confidence_resp_prompt_main: autoDraw = True
+410.9769 	EXP 	confidence_ratebar: autoDraw = True
+411.4956 	EXP 	New trial (rep=0, index=38): {'stim': 'SetD/018a.jpg', 'type': 'targ'}
+411.4985 	DATA 	Keypress: l
+411.5102 	EXP 	confidence_resp_prompt_main: autoDraw = False
+411.5102 	EXP 	confidence_ratebar: autoDraw = False
+411.5102 	EXP 	fixation: autoDraw = True
+412.0235 	EXP 	fixation: autoDraw = False
+412.0235 	EXP 	fixation: autoDraw = False
+412.0235 	EXP 	recognition_img: size = array([0.27708333, 0.27708333])
+412.0235 	EXP 	recognition_img: image = 'SetD/018a.jpg'
+412.0235 	EXP 	recognition_img: autoDraw = True
+412.0235 	EXP 	recognition_resp_prompt_main: autoDraw = True
+412.0235 	EXP 	recognition_resp_prompt_options: autoDraw = True
+413.1315 	DATA 	Keypress: j
+413.1442 	EXP 	recognition_img: autoDraw = False
+413.1442 	EXP 	recognition_resp_prompt_main: autoDraw = False
+413.1442 	EXP 	recognition_resp_prompt_options: autoDraw = False
+413.1442 	EXP 	confidence_resp_prompt_main: autoDraw = True
+413.1442 	EXP 	confidence_ratebar: autoDraw = True
+413.6299 	EXP 	New trial (rep=0, index=39): {'stim': 'SetD/056b.jpg', 'type': 'lure'}
+413.6329 	DATA 	Keypress: k
+413.6451 	EXP 	confidence_resp_prompt_main: autoDraw = False
+413.6451 	EXP 	confidence_ratebar: autoDraw = False
+413.6451 	EXP 	fixation: autoDraw = True
+414.1581 	EXP 	fixation: autoDraw = False
+414.1581 	EXP 	fixation: autoDraw = False
+414.1581 	EXP 	recognition_img: size = array([0.27222222, 0.27777778])
+414.1581 	EXP 	recognition_img: image = 'SetD/056b.jpg'
+414.1581 	EXP 	recognition_img: autoDraw = True
+414.1581 	EXP 	recognition_resp_prompt_main: autoDraw = True
+414.1581 	EXP 	recognition_resp_prompt_options: autoDraw = True
+415.5993 	DATA 	Keypress: k
+415.6116 	EXP 	recognition_img: autoDraw = False
+415.6116 	EXP 	recognition_resp_prompt_main: autoDraw = False
+415.6116 	EXP 	recognition_resp_prompt_options: autoDraw = False
+415.6116 	EXP 	confidence_resp_prompt_main: autoDraw = True
+415.6116 	EXP 	confidence_ratebar: autoDraw = True
+416.0291 	EXP 	New trial (rep=0, index=40): {'stim': 'SetC/026a.jpg', 'type': 'targ'}
+416.0318 	DATA 	Keypress: l
+416.0454 	EXP 	confidence_resp_prompt_main: autoDraw = False
+416.0454 	EXP 	confidence_ratebar: autoDraw = False
+416.0454 	EXP 	fixation: autoDraw = True
+416.5446 	EXP 	fixation: autoDraw = False
+416.5446 	EXP 	fixation: autoDraw = False
+416.5446 	EXP 	recognition_img: size = array([0.18402778, 0.27777778])
+416.5446 	EXP 	recognition_img: image = 'SetC/026a.jpg'
+416.5446 	EXP 	recognition_img: autoDraw = True
+416.5446 	EXP 	recognition_resp_prompt_main: autoDraw = True
+416.5446 	EXP 	recognition_resp_prompt_options: autoDraw = True
+419.3825 	DATA 	Keypress: h
+419.3962 	EXP 	recognition_img: autoDraw = False
+419.3962 	EXP 	recognition_resp_prompt_main: autoDraw = False
+419.3962 	EXP 	recognition_resp_prompt_options: autoDraw = False
+419.3962 	EXP 	confidence_resp_prompt_main: autoDraw = True
+419.3962 	EXP 	confidence_ratebar: autoDraw = True
+420.1813 	EXP 	New trial (rep=0, index=41): {'stim': 'SetD/031a.jpg', 'type': 'targ'}
+420.1840 	DATA 	Keypress: k
+420.1962 	EXP 	confidence_resp_prompt_main: autoDraw = False
+420.1962 	EXP 	confidence_ratebar: autoDraw = False
+420.1962 	EXP 	fixation: autoDraw = True
+420.7073 	EXP 	fixation: autoDraw = False
+420.7073 	EXP 	fixation: autoDraw = False
+420.7073 	EXP 	recognition_img: size = array([0.24305556, 0.27708333])
+420.7073 	EXP 	recognition_img: image = 'SetD/031a.jpg'
+420.7073 	EXP 	recognition_img: autoDraw = True
+420.7073 	EXP 	recognition_resp_prompt_main: autoDraw = True
+420.7073 	EXP 	recognition_resp_prompt_options: autoDraw = True
+424.7014 	DATA 	Keypress: k
+424.7142 	EXP 	recognition_img: autoDraw = False
+424.7142 	EXP 	recognition_resp_prompt_main: autoDraw = False
+424.7142 	EXP 	recognition_resp_prompt_options: autoDraw = False
+424.7142 	EXP 	confidence_resp_prompt_main: autoDraw = True
+424.7142 	EXP 	confidence_ratebar: autoDraw = True
+425.1818 	EXP 	New trial (rep=0, index=42): {'stim': 'SetD/170b.jpg', 'type': 'lure'}
+425.1847 	DATA 	Keypress: l
+425.1979 	EXP 	confidence_resp_prompt_main: autoDraw = False
+425.1979 	EXP 	confidence_ratebar: autoDraw = False
+425.1979 	EXP 	fixation: autoDraw = True
+425.6975 	EXP 	fixation: autoDraw = False
+425.6975 	EXP 	fixation: autoDraw = False
+425.6975 	EXP 	recognition_img: size = array([0.24861111, 0.27777778])
+425.6975 	EXP 	recognition_img: image = 'SetD/170b.jpg'
+425.6975 	EXP 	recognition_img: autoDraw = True
+425.6975 	EXP 	recognition_resp_prompt_main: autoDraw = True
+425.6975 	EXP 	recognition_resp_prompt_options: autoDraw = True
+427.7524 	DATA 	Keypress: k
+427.7643 	EXP 	recognition_img: autoDraw = False
+427.7643 	EXP 	recognition_resp_prompt_main: autoDraw = False
+427.7643 	EXP 	recognition_resp_prompt_options: autoDraw = False
+427.7643 	EXP 	confidence_resp_prompt_main: autoDraw = True
+427.7643 	EXP 	confidence_ratebar: autoDraw = True
+428.7502 	EXP 	New trial (rep=0, index=43): {'stim': 'SetC/030b.jpg', 'type': 'lure'}
+428.7535 	DATA 	Keypress: j
+428.7652 	EXP 	confidence_resp_prompt_main: autoDraw = False
+428.7652 	EXP 	confidence_ratebar: autoDraw = False
+428.7652 	EXP 	fixation: autoDraw = True
+429.2736 	EXP 	fixation: autoDraw = False
+429.2736 	EXP 	fixation: autoDraw = False
+429.2736 	EXP 	recognition_img: size = array([0.27708333, 0.27708333])
+429.2736 	EXP 	recognition_img: image = 'SetC/030b.jpg'
+429.2736 	EXP 	recognition_img: autoDraw = True
+429.2736 	EXP 	recognition_resp_prompt_main: autoDraw = True
+429.2736 	EXP 	recognition_resp_prompt_options: autoDraw = True
+432.8032 	DATA 	Keypress: j
+432.8164 	EXP 	recognition_img: autoDraw = False
+432.8164 	EXP 	recognition_resp_prompt_main: autoDraw = False
+432.8164 	EXP 	recognition_resp_prompt_options: autoDraw = False
+432.8164 	EXP 	confidence_resp_prompt_main: autoDraw = True
+432.8164 	EXP 	confidence_ratebar: autoDraw = True
+434.1010 	EXP 	New trial (rep=0, index=44): {'stim': 'SetC/116a.jpg', 'type': 'targ'}
+434.1038 	DATA 	Keypress: k
+434.1163 	EXP 	confidence_resp_prompt_main: autoDraw = False
+434.1163 	EXP 	confidence_ratebar: autoDraw = False
+434.1163 	EXP 	fixation: autoDraw = True
+434.6161 	EXP 	fixation: autoDraw = False
+434.6161 	EXP 	fixation: autoDraw = False
+434.6161 	EXP 	recognition_img: size = array([0.27777778, 0.18472222])
+434.6161 	EXP 	recognition_img: image = 'SetC/116a.jpg'
+434.6161 	EXP 	recognition_img: autoDraw = True
+434.6161 	EXP 	recognition_resp_prompt_main: autoDraw = True
+434.6161 	EXP 	recognition_resp_prompt_options: autoDraw = True
+436.5041 	DATA 	Keypress: k
+436.5163 	EXP 	recognition_img: autoDraw = False
+436.5163 	EXP 	recognition_resp_prompt_main: autoDraw = False
+436.5163 	EXP 	recognition_resp_prompt_options: autoDraw = False
+436.5163 	EXP 	confidence_resp_prompt_main: autoDraw = True
+436.5163 	EXP 	confidence_ratebar: autoDraw = True
+437.5513 	EXP 	New trial (rep=0, index=45): {'stim': 'SetD/122b.jpg', 'type': 'lure'}
+437.5536 	DATA 	Keypress: k
+437.5665 	EXP 	confidence_resp_prompt_main: autoDraw = False
+437.5665 	EXP 	confidence_ratebar: autoDraw = False
+437.5665 	EXP 	fixation: autoDraw = True
+438.0724 	EXP 	fixation: autoDraw = False
+438.0724 	EXP 	fixation: autoDraw = False
+438.0724 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+438.0724 	EXP 	recognition_img: image = 'SetD/122b.jpg'
+438.0724 	EXP 	recognition_img: autoDraw = True
+438.0724 	EXP 	recognition_resp_prompt_main: autoDraw = True
+438.0724 	EXP 	recognition_resp_prompt_options: autoDraw = True
+441.2729 	DATA 	Keypress: j
+441.2850 	EXP 	recognition_img: autoDraw = False
+441.2850 	EXP 	recognition_resp_prompt_main: autoDraw = False
+441.2850 	EXP 	recognition_resp_prompt_options: autoDraw = False
+441.2850 	EXP 	confidence_resp_prompt_main: autoDraw = True
+441.2850 	EXP 	confidence_ratebar: autoDraw = True
+443.8701 	EXP 	New trial (rep=0, index=46): {'stim': 'SetD/096b.jpg', 'type': 'lure'}
+443.8723 	DATA 	Keypress: j
+443.8856 	EXP 	confidence_resp_prompt_main: autoDraw = False
+443.8856 	EXP 	confidence_ratebar: autoDraw = False
+443.8856 	EXP 	fixation: autoDraw = True
+444.3891 	EXP 	fixation: autoDraw = False
+444.3891 	EXP 	fixation: autoDraw = False
+444.3891 	EXP 	recognition_img: size = array([0.21736111, 0.27777778])
+444.3891 	EXP 	recognition_img: image = 'SetD/096b.jpg'
+444.3891 	EXP 	recognition_img: autoDraw = True
+444.3891 	EXP 	recognition_resp_prompt_main: autoDraw = True
+444.3891 	EXP 	recognition_resp_prompt_options: autoDraw = True
+449.2403 	DATA 	Keypress: j
+449.2531 	EXP 	recognition_img: autoDraw = False
+449.2531 	EXP 	recognition_resp_prompt_main: autoDraw = False
+449.2531 	EXP 	recognition_resp_prompt_options: autoDraw = False
+449.2531 	EXP 	confidence_resp_prompt_main: autoDraw = True
+449.2531 	EXP 	confidence_ratebar: autoDraw = True
+450.6387 	EXP 	New trial (rep=0, index=47): {'stim': 'SetC/117b.jpg', 'type': 'lure'}
+450.6416 	DATA 	Keypress: k
+450.6537 	EXP 	confidence_resp_prompt_main: autoDraw = False
+450.6537 	EXP 	confidence_ratebar: autoDraw = False
+450.6537 	EXP 	fixation: autoDraw = True
+451.1709 	EXP 	fixation: autoDraw = False
+451.1709 	EXP 	fixation: autoDraw = False
+451.1709 	EXP 	recognition_img: size = array([0.27777778, 0.20347222])
+451.1709 	EXP 	recognition_img: image = 'SetC/117b.jpg'
+451.1709 	EXP 	recognition_img: autoDraw = True
+451.1709 	EXP 	recognition_resp_prompt_main: autoDraw = True
+451.1709 	EXP 	recognition_resp_prompt_options: autoDraw = True
+454.4105 	DATA 	Keypress: j
+454.4219 	EXP 	recognition_img: autoDraw = False
+454.4219 	EXP 	recognition_resp_prompt_main: autoDraw = False
+454.4219 	EXP 	recognition_resp_prompt_options: autoDraw = False
+454.4219 	EXP 	confidence_resp_prompt_main: autoDraw = True
+454.4219 	EXP 	confidence_ratebar: autoDraw = True
+455.3757 	DATA 	Keypress: l
+455.3898 	EXP 	New trial (rep=0, index=48): {'stim': 'SetD/111b.jpg', 'type': 'lure'}
+455.4047 	EXP 	confidence_resp_prompt_main: autoDraw = False
+455.4047 	EXP 	confidence_ratebar: autoDraw = False
+455.4047 	EXP 	fixation: autoDraw = True
+455.9048 	EXP 	fixation: autoDraw = False
+455.9048 	EXP 	fixation: autoDraw = False
+455.9048 	EXP 	recognition_img: size = array([0.27777778, 0.18263889])
+455.9048 	EXP 	recognition_img: image = 'SetD/111b.jpg'
+455.9048 	EXP 	recognition_img: autoDraw = True
+455.9048 	EXP 	recognition_resp_prompt_main: autoDraw = True
+455.9048 	EXP 	recognition_resp_prompt_options: autoDraw = True
+457.2098 	DATA 	Keypress: j
+457.2214 	EXP 	recognition_img: autoDraw = False
+457.2214 	EXP 	recognition_resp_prompt_main: autoDraw = False
+457.2214 	EXP 	recognition_resp_prompt_options: autoDraw = False
+457.2214 	EXP 	confidence_resp_prompt_main: autoDraw = True
+457.2214 	EXP 	confidence_ratebar: autoDraw = True
+457.8725 	EXP 	New trial (rep=0, index=49): {'stim': 'SetC/118b.jpg', 'type': 'lure'}
+457.8745 	DATA 	Keypress: k
+457.8897 	EXP 	confidence_resp_prompt_main: autoDraw = False
+457.8897 	EXP 	confidence_ratebar: autoDraw = False
+457.8897 	EXP 	fixation: autoDraw = True
+458.4060 	EXP 	fixation: autoDraw = False
+458.4060 	EXP 	fixation: autoDraw = False
+458.4060 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+458.4060 	EXP 	recognition_img: image = 'SetC/118b.jpg'
+458.4060 	EXP 	recognition_img: autoDraw = True
+458.4060 	EXP 	recognition_resp_prompt_main: autoDraw = True
+458.4060 	EXP 	recognition_resp_prompt_options: autoDraw = True
+460.1594 	DATA 	Keypress: k
+460.1736 	EXP 	recognition_img: autoDraw = False
+460.1736 	EXP 	recognition_resp_prompt_main: autoDraw = False
+460.1736 	EXP 	recognition_resp_prompt_options: autoDraw = False
+460.1736 	EXP 	confidence_resp_prompt_main: autoDraw = True
+460.1736 	EXP 	confidence_ratebar: autoDraw = True
+461.1233 	EXP 	New trial (rep=0, index=50): {'stim': 'SetC/043a.jpg', 'type': 'foil'}
+461.1256 	DATA 	Keypress: j
+461.1399 	EXP 	confidence_resp_prompt_main: autoDraw = False
+461.1399 	EXP 	confidence_ratebar: autoDraw = False
+461.1399 	EXP 	fixation: autoDraw = True
+461.6403 	EXP 	fixation: autoDraw = False
+461.6403 	EXP 	fixation: autoDraw = False
+461.6403 	EXP 	recognition_img: size = array([0.27708333, 0.27708333])
+461.6403 	EXP 	recognition_img: image = 'SetC/043a.jpg'
+461.6403 	EXP 	recognition_img: autoDraw = True
+461.6403 	EXP 	recognition_resp_prompt_main: autoDraw = True
+461.6403 	EXP 	recognition_resp_prompt_options: autoDraw = True
+463.7273 	DATA 	Keypress: j
+463.7412 	EXP 	recognition_img: autoDraw = False
+463.7412 	EXP 	recognition_resp_prompt_main: autoDraw = False
+463.7412 	EXP 	recognition_resp_prompt_options: autoDraw = False
+463.7412 	EXP 	confidence_resp_prompt_main: autoDraw = True
+463.7412 	EXP 	confidence_ratebar: autoDraw = True
+464.2917 	EXP 	New trial (rep=0, index=51): {'stim': 'SetD/106b.jpg', 'type': 'lure'}
+464.2939 	DATA 	Keypress: k
+464.3070 	EXP 	confidence_resp_prompt_main: autoDraw = False
+464.3070 	EXP 	confidence_ratebar: autoDraw = False
+464.3070 	EXP 	fixation: autoDraw = True
+464.8221 	EXP 	fixation: autoDraw = False
+464.8221 	EXP 	fixation: autoDraw = False
+464.8221 	EXP 	recognition_img: size = array([0.27777778, 0.24722222])
+464.8221 	EXP 	recognition_img: image = 'SetD/106b.jpg'
+464.8221 	EXP 	recognition_img: autoDraw = True
+464.8221 	EXP 	recognition_resp_prompt_main: autoDraw = True
+464.8221 	EXP 	recognition_resp_prompt_options: autoDraw = True
+466.8455 	DATA 	Keypress: k
+466.8583 	EXP 	recognition_img: autoDraw = False
+466.8583 	EXP 	recognition_resp_prompt_main: autoDraw = False
+466.8583 	EXP 	recognition_resp_prompt_options: autoDraw = False
+466.8583 	EXP 	confidence_resp_prompt_main: autoDraw = True
+466.8583 	EXP 	confidence_ratebar: autoDraw = True
+467.3423 	EXP 	New trial (rep=0, index=52): {'stim': 'SetC/132a.jpg', 'type': 'foil'}
+467.3446 	DATA 	Keypress: l
+467.3573 	EXP 	confidence_resp_prompt_main: autoDraw = False
+467.3573 	EXP 	confidence_ratebar: autoDraw = False
+467.3573 	EXP 	fixation: autoDraw = True
+467.8707 	EXP 	fixation: autoDraw = False
+467.8707 	EXP 	fixation: autoDraw = False
+467.8707 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+467.8707 	EXP 	recognition_img: image = 'SetC/132a.jpg'
+467.8707 	EXP 	recognition_img: autoDraw = True
+467.8707 	EXP 	recognition_resp_prompt_main: autoDraw = True
+467.8707 	EXP 	recognition_resp_prompt_options: autoDraw = True
+469.1459 	DATA 	Keypress: k
+469.1591 	EXP 	recognition_img: autoDraw = False
+469.1591 	EXP 	recognition_resp_prompt_main: autoDraw = False
+469.1591 	EXP 	recognition_resp_prompt_options: autoDraw = False
+469.1591 	EXP 	confidence_resp_prompt_main: autoDraw = True
+469.1591 	EXP 	confidence_ratebar: autoDraw = True
+470.5288 	DATA 	Keypress: k
+470.5435 	EXP 	New trial (rep=0, index=53): {'stim': 'SetD/042a.jpg', 'type': 'foil'}
+470.5594 	EXP 	confidence_resp_prompt_main: autoDraw = False
+470.5594 	EXP 	confidence_ratebar: autoDraw = False
+470.5594 	EXP 	fixation: autoDraw = True
+471.0708 	EXP 	fixation: autoDraw = False
+471.0708 	EXP 	fixation: autoDraw = False
+471.0708 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+471.0708 	EXP 	recognition_img: image = 'SetD/042a.jpg'
+471.0708 	EXP 	recognition_img: autoDraw = True
+471.0708 	EXP 	recognition_resp_prompt_main: autoDraw = True
+471.0708 	EXP 	recognition_resp_prompt_options: autoDraw = True
+472.7253 	DATA 	Keypress: j
+472.7372 	EXP 	recognition_img: autoDraw = False
+472.7372 	EXP 	recognition_resp_prompt_main: autoDraw = False
+472.7372 	EXP 	recognition_resp_prompt_options: autoDraw = False
+472.7372 	EXP 	confidence_resp_prompt_main: autoDraw = True
+472.7372 	EXP 	confidence_ratebar: autoDraw = True
+473.6119 	EXP 	New trial (rep=0, index=54): {'stim': 'SetC/123a.jpg', 'type': 'targ'}
+473.6147 	DATA 	Keypress: j
+473.6270 	EXP 	confidence_resp_prompt_main: autoDraw = False
+473.6270 	EXP 	confidence_ratebar: autoDraw = False
+473.6270 	EXP 	fixation: autoDraw = True
+474.1380 	EXP 	fixation: autoDraw = False
+474.1380 	EXP 	fixation: autoDraw = False
+474.1380 	EXP 	recognition_img: size = array([0.27777778, 0.21736111])
+474.1380 	EXP 	recognition_img: image = 'SetC/123a.jpg'
+474.1380 	EXP 	recognition_img: autoDraw = True
+474.1380 	EXP 	recognition_resp_prompt_main: autoDraw = True
+474.1380 	EXP 	recognition_resp_prompt_options: autoDraw = True
+476.9656 	DATA 	Keypress: k
+476.9938 	EXP 	recognition_img: autoDraw = False
+476.9938 	EXP 	recognition_resp_prompt_main: autoDraw = False
+476.9938 	EXP 	recognition_resp_prompt_options: autoDraw = False
+476.9938 	EXP 	confidence_resp_prompt_main: autoDraw = True
+476.9938 	EXP 	confidence_ratebar: autoDraw = True
+478.1300 	EXP 	New trial (rep=0, index=55): {'stim': 'SetC/099a.jpg', 'type': 'targ'}
+478.1328 	DATA 	Keypress: k
+478.1440 	EXP 	confidence_resp_prompt_main: autoDraw = False
+478.1440 	EXP 	confidence_ratebar: autoDraw = False
+478.1440 	EXP 	fixation: autoDraw = True
+478.6535 	EXP 	fixation: autoDraw = False
+478.6535 	EXP 	fixation: autoDraw = False
+478.6535 	EXP 	recognition_img: size = array([0.27777778, 0.27777778])
+478.6535 	EXP 	recognition_img: image = 'SetC/099a.jpg'
+478.6535 	EXP 	recognition_img: autoDraw = True
+478.6535 	EXP 	recognition_resp_prompt_main: autoDraw = True
+478.6535 	EXP 	recognition_resp_prompt_options: autoDraw = True
+479.9498 	DATA 	Keypress: h
+479.9613 	EXP 	recognition_img: autoDraw = False
+479.9613 	EXP 	recognition_resp_prompt_main: autoDraw = False
+479.9613 	EXP 	recognition_resp_prompt_options: autoDraw = False
+479.9613 	EXP 	confidence_resp_prompt_main: autoDraw = True
+479.9613 	EXP 	confidence_ratebar: autoDraw = True
+481.6798 	EXP 	New trial (rep=0, index=56): {'stim': 'SetC/069a.jpg', 'type': 'targ'}
+481.6833 	DATA 	Keypress: l
+481.6945 	EXP 	confidence_resp_prompt_main: autoDraw = False
+481.6945 	EXP 	confidence_ratebar: autoDraw = False
+481.6945 	EXP 	fixation: autoDraw = True
+482.1948 	EXP 	fixation: autoDraw = False
+482.1948 	EXP 	fixation: autoDraw = False
+482.1948 	EXP 	recognition_img: size = array([0.27777778, 0.13888889])
+482.1948 	EXP 	recognition_img: image = 'SetC/069a.jpg'
+482.1948 	EXP 	recognition_img: autoDraw = True
+482.1948 	EXP 	recognition_resp_prompt_main: autoDraw = True
+482.1948 	EXP 	recognition_resp_prompt_options: autoDraw = True
+483.7669 	DATA 	Keypress: k
+483.7797 	EXP 	recognition_img: autoDraw = False
+483.7797 	EXP 	recognition_resp_prompt_main: autoDraw = False
+483.7797 	EXP 	recognition_resp_prompt_options: autoDraw = False
+483.7797 	EXP 	confidence_resp_prompt_main: autoDraw = True
+483.7797 	EXP 	confidence_ratebar: autoDraw = True
+484.7964 	EXP 	New trial (rep=0, index=57): {'stim': 'SetC/141a.jpg', 'type': 'targ'}
+484.7986 	DATA 	Keypress: j
+484.8122 	EXP 	confidence_resp_prompt_main: autoDraw = False
+484.8122 	EXP 	confidence_ratebar: autoDraw = False
+484.8122 	EXP 	fixation: autoDraw = True
+485.3209 	EXP 	fixation: autoDraw = False
+485.3209 	EXP 	fixation: autoDraw = False
+485.3209 	EXP 	recognition_img: size = array([0.25902778, 0.27777778])
+485.3209 	EXP 	recognition_img: image = 'SetC/141a.jpg'
+485.3209 	EXP 	recognition_img: autoDraw = True
+485.3209 	EXP 	recognition_resp_prompt_main: autoDraw = True
+485.3209 	EXP 	recognition_resp_prompt_options: autoDraw = True
+487.1004 	DATA 	Keypress: k
+487.1126 	EXP 	recognition_img: autoDraw = False
+487.1126 	EXP 	recognition_resp_prompt_main: autoDraw = False
+487.1126 	EXP 	recognition_resp_prompt_options: autoDraw = False
+487.1126 	EXP 	confidence_resp_prompt_main: autoDraw = True
+487.1126 	EXP 	confidence_ratebar: autoDraw = True
+488.0338 	DATA 	Keypress: h
+488.0489 	EXP 	New trial (rep=0, index=58): {'stim': 'SetC/002a.jpg', 'type': 'targ'}
+488.0632 	EXP 	confidence_resp_prompt_main: autoDraw = False
+488.0632 	EXP 	confidence_ratebar: autoDraw = False
+488.0632 	EXP 	fixation: autoDraw = True
+488.5639 	EXP 	fixation: autoDraw = False
+488.5639 	EXP 	fixation: autoDraw = False
+488.5639 	EXP 	recognition_img: size = array([0.18333333, 0.27777778])
+488.5639 	EXP 	recognition_img: image = 'SetC/002a.jpg'
+488.5639 	EXP 	recognition_img: autoDraw = True
+488.5639 	EXP 	recognition_resp_prompt_main: autoDraw = True
+488.5639 	EXP 	recognition_resp_prompt_options: autoDraw = True
+489.7023 	DATA 	Keypress: h
+489.7146 	EXP 	recognition_img: autoDraw = False
+489.7146 	EXP 	recognition_resp_prompt_main: autoDraw = False
+489.7146 	EXP 	recognition_resp_prompt_options: autoDraw = False
+489.7146 	EXP 	confidence_resp_prompt_main: autoDraw = True
+489.7146 	EXP 	confidence_ratebar: autoDraw = True
+490.4494 	EXP 	New trial (rep=0, index=59): {'stim': 'SetD/161a.jpg', 'type': 'targ'}
+490.4520 	DATA 	Keypress: l
+490.4646 	EXP 	confidence_resp_prompt_main: autoDraw = False
+490.4646 	EXP 	confidence_ratebar: autoDraw = False
+490.4646 	EXP 	fixation: autoDraw = True
+490.9865 	EXP 	fixation: autoDraw = False
+490.9865 	EXP 	fixation: autoDraw = False
+490.9865 	EXP 	recognition_img: size = array([0.27777778, 0.25347222])
+490.9865 	EXP 	recognition_img: image = 'SetD/161a.jpg'
+490.9865 	EXP 	recognition_img: autoDraw = True
+490.9865 	EXP 	recognition_resp_prompt_main: autoDraw = True
+490.9865 	EXP 	recognition_resp_prompt_options: autoDraw = True
+493.4195 	DATA 	Keypress: k
+493.4323 	EXP 	recognition_img: autoDraw = False
+493.4323 	EXP 	recognition_resp_prompt_main: autoDraw = False
+493.4323 	EXP 	recognition_resp_prompt_options: autoDraw = False
+493.4323 	EXP 	confidence_resp_prompt_main: autoDraw = True
+493.4323 	EXP 	confidence_ratebar: autoDraw = True
+494.9523 	DATA 	Keypress: l
+494.9817 	EXP 	confidence_resp_prompt_main: autoDraw = False
+494.9817 	EXP 	confidence_ratebar: autoDraw = False
+494.9817 	EXP 	encoding_instruct_text: autoDraw = True
+502.5342 	EXP 	Created sequence: sequential, trialTypes=48, nReps=1, seed=None
+502.5346 	EXP 	New trial (rep=0, index=0): {'stim': 'SetC/175a.jpg'}
+502.5376 	DATA 	Keypress: r
+502.5508 	EXP 	encoding_instruct_text: autoDraw = False
+502.5508 	EXP 	fixation: autoDraw = True
+503.0525 	EXP 	fixation: autoDraw = False
+503.0525 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+503.0525 	EXP 	encoding_img: image = 'SetC/175a.jpg'
+503.0525 	EXP 	encoding_img: autoDraw = True
+505.0353 	EXP 	New trial (rep=0, index=1): {'stim': 'SetC/104a.jpg'}
+505.0509 	EXP 	encoding_img: autoDraw = False
+505.0509 	EXP 	fixation: autoDraw = True
+505.5507 	EXP 	fixation: autoDraw = False
+505.5507 	EXP 	encoding_img: size = array([0.18263889, 0.27777778])
+505.5507 	EXP 	encoding_img: image = 'SetC/104a.jpg'
+505.5507 	EXP 	encoding_img: autoDraw = True
+507.5354 	EXP 	New trial (rep=0, index=2): {'stim': 'SetD/121a.jpg'}
+507.5519 	EXP 	encoding_img: autoDraw = False
+507.5519 	EXP 	fixation: autoDraw = True
+508.0525 	EXP 	fixation: autoDraw = False
+508.0525 	EXP 	encoding_img: size = array([0.18263889, 0.27777778])
+508.0525 	EXP 	encoding_img: image = 'SetD/121a.jpg'
+508.0525 	EXP 	encoding_img: autoDraw = True
+510.0366 	EXP 	New trial (rep=0, index=3): {'stim': 'SetC/151a.jpg'}
+510.0529 	EXP 	encoding_img: autoDraw = False
+510.0529 	EXP 	fixation: autoDraw = True
+510.5522 	EXP 	fixation: autoDraw = False
+510.5522 	EXP 	encoding_img: size = array([0.27777778, 0.18055556])
+510.5522 	EXP 	encoding_img: image = 'SetC/151a.jpg'
+510.5522 	EXP 	encoding_img: autoDraw = True
+512.5358 	EXP 	New trial (rep=0, index=4): {'stim': 'SetD/100a.jpg'}
+512.5524 	EXP 	encoding_img: autoDraw = False
+512.5524 	EXP 	fixation: autoDraw = True
+513.0532 	EXP 	fixation: autoDraw = False
+513.0532 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+513.0532 	EXP 	encoding_img: image = 'SetD/100a.jpg'
+513.0532 	EXP 	encoding_img: autoDraw = True
+515.0382 	EXP 	New trial (rep=0, index=5): {'stim': 'SetC/114a.jpg'}
+515.0534 	EXP 	encoding_img: autoDraw = False
+515.0534 	EXP 	fixation: autoDraw = True
+515.5541 	EXP 	fixation: autoDraw = False
+515.5541 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+515.5541 	EXP 	encoding_img: image = 'SetC/114a.jpg'
+515.5541 	EXP 	encoding_img: autoDraw = True
+517.5377 	EXP 	New trial (rep=0, index=6): {'stim': 'SetC/038a.jpg'}
+517.5540 	EXP 	encoding_img: autoDraw = False
+517.5540 	EXP 	fixation: autoDraw = True
+518.0541 	EXP 	fixation: autoDraw = False
+518.0541 	EXP 	encoding_img: size = array([0.27708333, 0.18194444])
+518.0541 	EXP 	encoding_img: image = 'SetC/038a.jpg'
+518.0541 	EXP 	encoding_img: autoDraw = True
+520.0394 	EXP 	New trial (rep=0, index=7): {'stim': 'SetC/055a.jpg'}
+520.0552 	EXP 	encoding_img: autoDraw = False
+520.0552 	EXP 	fixation: autoDraw = True
+520.5553 	EXP 	fixation: autoDraw = False
+520.5553 	EXP 	encoding_img: size = array([0.27708333, 0.27708333])
+520.5553 	EXP 	encoding_img: image = 'SetC/055a.jpg'
+520.5553 	EXP 	encoding_img: autoDraw = True
+522.5387 	EXP 	New trial (rep=0, index=8): {'stim': 'SetD/055a.jpg'}
+522.5548 	EXP 	encoding_img: autoDraw = False
+522.5548 	EXP 	fixation: autoDraw = True
+523.0559 	EXP 	fixation: autoDraw = False
+523.0559 	EXP 	encoding_img: size = array([0.27777778, 0.27638889])
+523.0559 	EXP 	encoding_img: image = 'SetD/055a.jpg'
+523.0559 	EXP 	encoding_img: autoDraw = True
+525.0407 	EXP 	New trial (rep=0, index=9): {'stim': 'SetC/148a.jpg'}
+525.0565 	EXP 	encoding_img: autoDraw = False
+525.0565 	EXP 	fixation: autoDraw = True
+525.5558 	EXP 	fixation: autoDraw = False
+525.5558 	EXP 	encoding_img: size = array([0.16527778, 0.27777778])
+525.5558 	EXP 	encoding_img: image = 'SetC/148a.jpg'
+525.5558 	EXP 	encoding_img: autoDraw = True
+527.5405 	EXP 	New trial (rep=0, index=10): {'stim': 'SetD/002a.jpg'}
+527.5569 	EXP 	encoding_img: autoDraw = False
+527.5569 	EXP 	fixation: autoDraw = True
+528.0574 	EXP 	fixation: autoDraw = False
+528.0574 	EXP 	encoding_img: size = array([0.27777778, 0.125     ])
+528.0574 	EXP 	encoding_img: image = 'SetD/002a.jpg'
+528.0574 	EXP 	encoding_img: autoDraw = True
+530.0416 	EXP 	New trial (rep=0, index=11): {'stim': 'SetD/019a.jpg'}
+530.0579 	EXP 	encoding_img: autoDraw = False
+530.0579 	EXP 	fixation: autoDraw = True
+530.5578 	EXP 	fixation: autoDraw = False
+530.5578 	EXP 	encoding_img: size = array([0.18194444, 0.27708333])
+530.5578 	EXP 	encoding_img: image = 'SetD/019a.jpg'
+530.5578 	EXP 	encoding_img: autoDraw = True
+532.5414 	EXP 	New trial (rep=0, index=12): {'stim': 'SetC/008a.jpg'}
+532.5577 	EXP 	encoding_img: autoDraw = False
+532.5577 	EXP 	fixation: autoDraw = True
+533.0580 	EXP 	fixation: autoDraw = False
+533.0580 	EXP 	encoding_img: size = array([0.27777778, 0.21736111])
+533.0580 	EXP 	encoding_img: image = 'SetC/008a.jpg'
+533.0580 	EXP 	encoding_img: autoDraw = True
+535.0433 	EXP 	New trial (rep=0, index=13): {'stim': 'SetC/067a.jpg'}
+535.0594 	EXP 	encoding_img: autoDraw = False
+535.0594 	EXP 	fixation: autoDraw = True
+535.5591 	EXP 	fixation: autoDraw = False
+535.5591 	EXP 	encoding_img: size = array([0.27708333, 0.22847222])
+535.5591 	EXP 	encoding_img: image = 'SetC/067a.jpg'
+535.5591 	EXP 	encoding_img: autoDraw = True
+537.5427 	EXP 	New trial (rep=0, index=14): {'stim': 'SetC/078a.jpg'}
+537.5594 	EXP 	encoding_img: autoDraw = False
+537.5594 	EXP 	fixation: autoDraw = True
+538.0603 	EXP 	fixation: autoDraw = False
+538.0603 	EXP 	encoding_img: size = array([0.27708333, 0.27708333])
+538.0603 	EXP 	encoding_img: image = 'SetC/078a.jpg'
+538.0603 	EXP 	encoding_img: autoDraw = True
+540.0440 	EXP 	New trial (rep=0, index=15): {'stim': 'SetC/160a.jpg'}
+540.0603 	EXP 	encoding_img: autoDraw = False
+540.0603 	EXP 	fixation: autoDraw = True
+540.5674 	EXP 	fixation: autoDraw = False
+540.5674 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+540.5674 	EXP 	encoding_img: image = 'SetC/160a.jpg'
+540.5674 	EXP 	encoding_img: autoDraw = True
+542.5441 	EXP 	New trial (rep=0, index=16): {'stim': 'SetC/060a.jpg'}
+542.5610 	EXP 	encoding_img: autoDraw = False
+542.5610 	EXP 	fixation: autoDraw = True
+543.0605 	EXP 	fixation: autoDraw = False
+543.0605 	EXP 	encoding_img: size = array([0.27708333, 0.27708333])
+543.0605 	EXP 	encoding_img: image = 'SetC/060a.jpg'
+543.0605 	EXP 	encoding_img: autoDraw = True
+545.0458 	EXP 	New trial (rep=0, index=17): {'stim': 'SetD/089a.jpg'}
+545.0618 	EXP 	encoding_img: autoDraw = False
+545.0618 	EXP 	fixation: autoDraw = True
+545.5666 	EXP 	fixation: autoDraw = False
+545.5666 	EXP 	encoding_img: size = array([0.24305556, 0.27777778])
+545.5666 	EXP 	encoding_img: image = 'SetD/089a.jpg'
+545.5666 	EXP 	encoding_img: autoDraw = True
+547.5454 	EXP 	New trial (rep=0, index=18): {'stim': 'SetD/030a.jpg'}
+547.5612 	EXP 	encoding_img: autoDraw = False
+547.5612 	EXP 	fixation: autoDraw = True
+548.0620 	EXP 	fixation: autoDraw = False
+548.0620 	EXP 	encoding_img: size = array([0.21458333, 0.27777778])
+548.0620 	EXP 	encoding_img: image = 'SetD/030a.jpg'
+548.0620 	EXP 	encoding_img: autoDraw = True
+550.0471 	EXP 	New trial (rep=0, index=19): {'stim': 'SetD/176a.jpg'}
+550.0626 	EXP 	encoding_img: autoDraw = False
+550.0626 	EXP 	fixation: autoDraw = True
+550.5621 	EXP 	fixation: autoDraw = False
+550.5621 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+550.5621 	EXP 	encoding_img: image = 'SetD/176a.jpg'
+550.5621 	EXP 	encoding_img: autoDraw = True
+552.5477 	EXP 	New trial (rep=0, index=20): {'stim': 'SetD/068a.jpg'}
+552.5637 	EXP 	encoding_img: autoDraw = False
+552.5637 	EXP 	fixation: autoDraw = True
+553.0662 	EXP 	fixation: autoDraw = False
+553.0662 	EXP 	encoding_img: size = array([0.27708333, 0.27708333])
+553.0662 	EXP 	encoding_img: image = 'SetD/068a.jpg'
+553.0662 	EXP 	encoding_img: autoDraw = True
+555.0486 	EXP 	New trial (rep=0, index=21): {'stim': 'SetD/058a.jpg'}
+555.0644 	EXP 	encoding_img: autoDraw = False
+555.0644 	EXP 	fixation: autoDraw = True
+555.5647 	EXP 	fixation: autoDraw = False
+555.5647 	EXP 	encoding_img: size = array([0.18194444, 0.27708333])
+555.5647 	EXP 	encoding_img: image = 'SetD/058a.jpg'
+555.5647 	EXP 	encoding_img: autoDraw = True
+557.5468 	EXP 	New trial (rep=0, index=22): {'stim': 'SetC/146a.jpg'}
+557.5633 	EXP 	encoding_img: autoDraw = False
+557.5633 	EXP 	fixation: autoDraw = True
+558.0642 	EXP 	fixation: autoDraw = False
+558.0642 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+558.0642 	EXP 	encoding_img: image = 'SetC/146a.jpg'
+558.0642 	EXP 	encoding_img: autoDraw = True
+560.0485 	EXP 	New trial (rep=0, index=23): {'stim': 'SetC/027a.jpg'}
+560.0653 	EXP 	encoding_img: autoDraw = False
+560.0653 	EXP 	fixation: autoDraw = True
+560.5652 	EXP 	fixation: autoDraw = False
+560.5652 	EXP 	encoding_img: size = array([0.27708333, 0.18194444])
+560.5652 	EXP 	encoding_img: image = 'SetC/027a.jpg'
+560.5652 	EXP 	encoding_img: autoDraw = True
+562.5491 	EXP 	New trial (rep=0, index=24): {'stim': 'SetC/165a.jpg'}
+562.5652 	EXP 	encoding_img: autoDraw = False
+562.5652 	EXP 	fixation: autoDraw = True
+563.0832 	EXP 	fixation: autoDraw = False
+563.0832 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+563.0832 	EXP 	encoding_img: image = 'SetC/165a.jpg'
+563.0832 	EXP 	encoding_img: autoDraw = True
+565.0502 	EXP 	New trial (rep=0, index=25): {'stim': 'SetC/066a.jpg'}
+565.0668 	EXP 	encoding_img: autoDraw = False
+565.0668 	EXP 	fixation: autoDraw = True
+565.5660 	EXP 	fixation: autoDraw = False
+565.5660 	EXP 	encoding_img: size = array([0.20625   , 0.19027778])
+565.5660 	EXP 	encoding_img: image = 'SetC/066a.jpg'
+565.5660 	EXP 	encoding_img: autoDraw = True
+567.5345 	EXP 	New trial (rep=0, index=26): {'stim': 'SetC/048a.jpg'}
+567.5495 	EXP 	encoding_img: autoDraw = False
+567.5495 	EXP 	fixation: autoDraw = True
+568.0508 	EXP 	fixation: autoDraw = False
+568.0508 	EXP 	encoding_img: size = array([0.27777778, 0.2       ])
+568.0508 	EXP 	encoding_img: image = 'SetC/048a.jpg'
+568.0508 	EXP 	encoding_img: autoDraw = True
+570.0355 	EXP 	New trial (rep=0, index=27): {'stim': 'SetC/115a.jpg'}
+570.0512 	EXP 	encoding_img: autoDraw = False
+570.0512 	EXP 	fixation: autoDraw = True
+570.5510 	EXP 	fixation: autoDraw = False
+570.5510 	EXP 	encoding_img: size = array([0.27777778, 0.26041667])
+570.5510 	EXP 	encoding_img: image = 'SetC/115a.jpg'
+570.5510 	EXP 	encoding_img: autoDraw = True
+572.5353 	EXP 	New trial (rep=0, index=28): {'stim': 'SetD/043a.jpg'}
+572.5519 	EXP 	encoding_img: autoDraw = False
+572.5519 	EXP 	fixation: autoDraw = True
+573.0659 	EXP 	fixation: autoDraw = False
+573.0659 	EXP 	encoding_img: size = array([0.27777778, 0.27777778])
+573.0659 	EXP 	encoding_img: image = 'SetD/043a.jpg'
+573.0659 	EXP 	encoding_img: autoDraw = True
+575.0360 	EXP 	New trial (rep=0, index=29): {'stim': 'SetD/039a.jpg'}
+575.0526 	EXP 	encoding_img: autoDraw = False
+575.0526 	EXP 	fixation: autoDraw = True
+575.5660 	EXP 	fixation: autoDraw = False
+575.5660 	EXP 	encoding_img: size = array([0.27708333, 0.27708333])
+575.5660 	EXP 	encoding_img: image = 'SetD/039a.jpg'
+575.5660 	EXP 	encoding_img: autoDraw = True
+577.5365 	EXP 	New trial (rep=0, index=30): {'stim': 'SetC/111a.jpg'}
+577.5531 	EXP 	encoding_img: autoDraw = False
+577.5531 	EXP 	fixation: autoDraw = True
+578.0533 	EXP 	fixation: autoDraw = False
+578.0533 	EXP 	encoding_img: size = array([0.22430556, 0.27777778])
+578.0533 	EXP 	encoding_img: image = 'SetC/111a.jpg'
+578.0533 	EXP 	encoding_img: autoDraw = True
+580.0380 	EXP 	New trial (rep=0, index=31): {'stim': 'SetC/161a.jpg'}
+580.0534 	EXP 	encoding_img: autoDraw = False
+580.0534 	EXP 	fixation: autoDraw = True
+580.5541 	EXP 	fixation: autoDraw = False
+580.5541 	EXP 	encoding_img: size = array([0.27777778, 0.23055556])
+580.5541 	EXP 	encoding_img: image = 'SetC/161a.jpg'
+580.5541 	EXP 	encoding_img: autoDraw = True
+582.5382 	EXP 	New trial (rep=0, index=32): {'stim': 'SetD/059a.jpg'}
+582.5535 	EXP 	encoding_img: autoDraw = False
+582.5535 	EXP 	fixation: autoDraw = True
+583.0552 	EXP 	fixation: autoDraw = False
+583.0552 	EXP 	encoding_img: size = array([0.22361111, 0.24375   ])
+583.0552 	EXP 	encoding_img: image = 'SetD/059a.jpg'
+583.0552 	EXP 	encoding_img: autoDraw = True
+585.0394 	EXP 	New trial (rep=0, index=33): {'stim': 'SetC/011a.jpg'}
+585.0555 	EXP 	encoding_img: autoDraw = False
+585.0555 	EXP 	fixation: autoDraw = True
+585.5547 	EXP 	fixation: autoDraw = False
+585.5547 	EXP 	encoding_img: size = array([0.17708333, 0.27777778])
+585.5547 	EXP 	encoding_img: image = 'SetC/011a.jpg'
+585.5547 	EXP 	encoding_img: autoDraw = True
+587.5389 	EXP 	New trial (rep=0, index=34): {'stim': 'SetD/084a.jpg'}
+587.5551 	EXP 	encoding_img: autoDraw = False
+587.5551 	EXP 	fixation: autoDraw = True
+588.0558 	EXP 	fixation: autoDraw = False
+588.0558 	EXP 	encoding_img: size = array([0.27777778, 0.18888889])
+588.0558 	EXP 	encoding_img: image = 'SetD/084a.jpg'
+588.0558 	EXP 	encoding_img: autoDraw = True
+590.0399 	EXP 	New trial (rep=0, index=35): {'stim': 'SetC/021a.jpg'}
+590.0566 	EXP 	encoding_img: autoDraw = False
+590.0566 	EXP 	fixation: autoDraw = True
+590.5567 	EXP 	fixation: autoDraw = False
+590.5567 	EXP 	encoding_img: size = array([0.27777778, 0.08680556])
+590.5567 	EXP 	encoding_img: image = 'SetC/021a.jpg'
+590.5567 	EXP 	encoding_img: autoDraw = True
+591.1259 	DATA 	Keypress: escape
+591.5065 	EXP 	window1: mouseVisible = True
